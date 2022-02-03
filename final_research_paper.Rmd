@@ -1,0 +1,233 @@
+---
+title: "Final Research Paper"
+subtitle: "PSY 4433-05/4433A-10/11: Experimental Psychology"
+author: "Jonathan A. Pedroza, PhD"
+date: "`r Sys.Date()`"
+output:
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+---
+
+```{css my-header-colors, echo = FALSE}
+.page-header {
+  color: #FAE9A0;
+  text-align: center;
+  background-color: #005C55;
+  background-image: linear-gradient(120deg, #7DA37B, #005C55);
+}
+
+a {
+  color: #F1C40F; #color of linked inline code
+  font-weight: bold;
+  text-decoration: none;
+}
+  a:hover {
+    text-decoration: underline;
+    }
+
+.main-content {
+  word-wrap: break-word; }
+  .main-content :first-child {
+    margin-top: 0; }
+  @media screen and (min-width: 64em) {
+    .main-content {
+      max-width: 64rem;
+      padding: 2rem 6rem;
+      margin: 0 auto;
+      font-size: 1.1rem; } }
+  @media screen and (min-width: 42em) and (max-width: 64em) {
+    .main-content {
+      padding: 2rem 4rem;
+      font-size: 1.1rem; } }
+  @media screen and (max-width: 42em) {
+    .main-content {
+      padding: 2rem 1rem;
+      font-size: 1rem; } }
+  .main-content img {
+    max-width: 100%; }
+  .main-content h1,
+  .main-content h2,
+  .main-content h3,
+  .main-content h4,
+  .main-content h5,
+  .main-content h6 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+    color: #3F7F68; } # header color
+  .main-content p {
+    margin-bottom: 1em; }
+  .main-content code {
+    padding: 2px 4px;
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-size: 0.9rem;
+    color: #005C55; #package color/whatever is in `` brackets
+    background-color: #7DA37B; #background color of ``brackets
+    border-radius: 0.3rem; }
+  .main-content pre {
+    padding: 0.8rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    color: #567482;
+    word-wrap: normal;
+    background-color: #f3f6fa; #background color of code chunks
+    border: solid 1px #005C55; #this is the border of the r code chunks
+    border-radius: 0.3rem; }
+    .main-content pre > code {
+      padding: 0;
+      margin: 0;
+      font-size: 0.9rem;
+      color: #5D6D7E;
+      word-break: normal;
+      white-space: pre;
+      background: transparent;
+      border: 0; }
+  .main-content .highlight {
+    margin-bottom: 1rem; }
+    .main-content .highlight pre {
+      margin-bottom: 0;
+      word-break: normal; }
+  .main-content .highlight pre,
+  .main-content pre {
+    padding: 0.8rem;
+    overflow: auto;
+    font-size: 0.9rem;
+    line-height: 1.45;
+    border-radius: 0.3rem;
+    -webkit-overflow-scrolling: touch; }
+  .main-content pre code,
+  .main-content pre tt {
+    display: inline;
+    max-width: initial;
+    padding: 0;
+    margin: 0;
+    overflow: initial;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0; }
+    .main-content pre code:before, .main-content pre code:after,
+    .main-content pre tt:before,
+    .main-content pre tt:after {
+      content: normal; }
+  .main-content ul,
+  .main-content ol {
+    margin-top: 0; }
+  .main-content blockquote {
+    padding: 0 1rem;
+    margin-left: 0;
+    color: #819198;
+    border-left: 0.3rem solid #dce6f0; }
+    .main-content blockquote > :first-child {
+      margin-top: 0; }
+    .main-content blockquote > :last-child {
+      margin-bottom: 0; }
+  .main-content table {
+    display: block;
+    width: 100%;
+    overflow: auto;
+    word-break: normal;
+    word-break: keep-all;
+    -webkit-overflow-scrolling: touch; }
+    .main-content table th {
+      font-weight: bold; }
+    .main-content table th,
+    .main-content table td {
+      padding: 0.5rem 1rem;
+      border: 1px solid #e9ebec; }
+  .main-content dl {
+    padding: 0; }
+    .main-content dl dt {
+      padding: 0;
+      margin-top: 1rem;
+      font-size: 1rem;
+      font-weight: bold; }
+    .main-content dl dd {
+      padding: 0;
+      margin-bottom: 1rem; }
+  .main-content hr {
+    height: 2px;
+    padding: 0;
+    margin: 1rem 0;
+    background-color: #5E9171; #line to break up sections
+    border: 0;
+}
+```
+
+# Rubric
+
+- Approximately 30 pages long
+- 
+
+## Total Points (100 points)
+
+### Abstract (10 points)
+
+- 250 words only
+
+### Introduction & Literature Review (25 points)
+
+- Introduction should be on the purpose of the study
+  - also have information on what your study is contributing to the field
+
+- Literature Review is on existing literature on the topic to show you know what you're talking about
+  - this should include all relationships that you are looking at
+  - also includes the purpose of control variables
+  
+- research questions/hypotheses
+
+### Method (15 points)
+
+- Participants
+  - tell me about the your sample
+  - how did you recruit?
+
+- Measures
+  - what measures did you use
+  - did you create a survey/questionnaire?
+
+- Procedure & Design
+  - paint me a picture of your design
+
+- Data Analysis Plan
+  - very similar to IRB protocol
+
+### Results (15 points)
+
+- preliminary results
+  - descriptive statistics
+  - analyses to help answer your research questions/hypotheses
+  
+- main analyses
+  - what was in your IRB proposal
+
+- exploratory analyses
+  - anything else that you may be interested in answering
+  - may be something that you originally didn't think of
+
+### Discussion & Implications (25 points)
+
+- Reinstate your purpose(s)
+
+- discuss each finding
+  - connect it with past literature
+
+- what do your findings mean past your study?
+  - what does this do for practitioners/researchers/plicy makers
+
+### Figures & Tables ( points)
+
+- need to have at least 1 figure and 1 table
+
+### Formatting & References ( points)
+
+- APA formatting (7th edition) for:
+  - abstract formatting
+  - headings and subheadings
+  - citations
+  - references
+  - tables & figures
+  - title page
+  - header for each page and page number
