@@ -1,0 +1,206 @@
+---
+title: "Factorial Design"
+author: "Jonathan A. Pedroza, PhD"
+format: beamer
+editor: visual
+---
+
+## Introduction to Factorial Designs
+
+-   Most studies we've talked about are focused on the differences between two or more groups on a single outcome
+
+    -   Ex: Depression (Therapy vs Control) and Exercise Levels
+
+## Introduction to Factorial Designs
+
+-   Factorial designs are when you are interested in these variables and an additional variable where this relationship differs
+
+    -   can be quasi-experimental, experimental, or nonexperimental designs
+
+    -   written out as each variable included in the design with the number of conditions each variable has
+
+        -   Ex: Depression and Age Group (Adolescent vs Young Adult) and Exercise Levels
+
+        -   2 x 2 factorial design
+
+## Introduction to Factorial Designs
+
+-   terminology for factorial designs include
+
+    -   IVs are commonly referred to as **factors**
+
+    -   study with two or more factors is a **factorial design**
+
+        -   **two-factor** **design** includes two factors
+
+        -   **single-factor design** includes one factor
+
+## Introduction to Factorial Designs
+
+-   **levels** or conditions are the number of groups for each IV/factor
+
+    -   Ex: Depression, Sex, Age Group (Adolescent vs Young Adult) and Exercise Levels
+
+    -   How many factors?
+
+    -   How many levels per factor? How would we describe the design with numbers? What would be call the design?
+
+## Main Effects & Interactions
+
+-   in your factorial design, you'll have at least two main effects and one interaction
+
+-   a **main effect** is the difference between the levels of one factor on your outcome
+
+    -   Ex: Depression and Age Group (Adolescent vs Young Adult) and Exercise Levels
+
+    -   What is a main effect from this example?
+
+    -   What is the second main effect?
+
+    -   What is the third main effect?
+
+## Interactions
+
+-   there is also an **interaction,** or when a relationship between one factor and the outcome depends on the second factor
+
+-   The inclusion of an interaction will change the value of the main effect because we are including more variables in the model
+
+-   However, you will still have your two main effects
+
+## Interactions
+
+-   Some instances, you can have a significant main effect or both
+
+    -   the inclusion of the interaction can cancel those out
+
+-   You can also have a significant interaction without any significant main effects
+
+## Interactions
+
+-   Ex: Depression and Age Group (Adolescent vs Young Adult) and Exercise Levels
+
+    -   An example of an interaction is:
+
+        -   Compared to those that did not receive therapy, participants that received therapy exercised significantly longer depending on whether they were adolescents or young adults
+
+-   We will talk about this in more detail since there are multiple ways that researchers conduct and interpret interaction findings
+
+## Alternative View of Interactions
+
+-   if both factors are independent of one another (they each have their own unique relationship with the outcome) then there will be no interaction
+
+-   The statistical tests we use can incorporate continuous and categorical variables
+
+    -   our analyses for our studies/experiments will only incorporate two categorical factors/IVs
+
+## Alternative View of Interactions
+
+-   to examine interactions visually (you should always look at your interactions), you will create either a line graph or bar graph with one factor on the x-axis and your outcome on the y-axis, while having different colors for your second factor
+
+-   don't let the visuals fool you
+
+    -   visuals can sometimes show an interaction, but the statistics are always right...most of the time
+
+-   Book: When two factors are graphed, the existence of nonparallel lines (lines that cross or converge) is an *indication* of an interaction between the two factors
+
+## Interpreting Main Effects & Interactions
+
+-   Be careful to only state what your significant findings tell you
+
+    -   An interaction can be significant, while main effects are not
+
+    -   If only looking at main effects, those may have been significant *until* the incorporation of the second factor and interaction
+
+## Interpreting Main Effects & Interactions
+
+-   Book: IV1: Amount of TV watched by children
+
+    -   IV2: Educational or Noneducational TV
+
+    -   Outcome: HS GPA
+
+## Independence of Main Effects & Interactions
+
+-   A two-factor study provides three different mean differences
+
+    -   Ex: Depression and Age Group (Adolescent vs Young Adult) and Exercise Levels
+
+    -   Average exercise for those that got therapy vs control
+
+    -   Average exercise for adolescents and young adults
+
+    -   The average of therapy group and control groups when they are adolescents and young adults
+
+## Types of Factorial Designs
+
+-   We have predominately focused on between-subjects designs
+
+    -   factorial designs can be created with various designs
+
+-   Factorial designs also do not need to have both factors be experimental variables
+
+    -   For your study, you'll have one manipulated factor and an additional factor of your choosing
+
+    -   It could be a between- or within-subjects factor or a combination, which would create a mixed factorial design
+
+## Types of Factorial Designs
+
+-   This allows researchers to create various designs
+
+    -   maybe you want a pretest-posttest but you also want to have different levels
+
+## Between-Subjects & Within-Subjects Designs
+
+-   a between subjects design allows for you to test multiple different treatment combinations
+
+    -   this can then require a lot of participants per condition
+
+    -   2 x 3 design has 6 conditions and would need participants for each condition
+
+    -   removes influence of order effects
+
+## Between-Subjects & Within-Subjects Designs
+
+-   within-subjects designs can be factorial
+
+    -   this requires participants to go through 6 different conditions
+
+        -   issues of fatigue, boredom, and practice effects
+
+-   uses less participants since they get all the conditions
+
+## Mixed Designs
+
+-   includes a between-subjects and within-subjects factor into the design
+
+    -   common form of mixed factorial design
+
+## Mixed Designs
+
+-   Book: Examining the effect of acetaminophen on pain and pleasure
+
+    -   participants shown pictures of positive images and negative images
+
+    -   participants either got acetaminophen or a placebo
+
+        -   both sets of images were rated less extremely than the placebo
+
+    -   What is the within-subjects factor?
+
+    -   What is the between-subjects factor?
+
+## Experimental and Nonexperimental or Quasi-Experimental Research Strategies
+
+-   you can have both factors be experimental variables/manipulations
+
+-   for this class, you'll have one experimental variable and one nonexperimental variable
+
+    -   you can control for this however you'd like by fixing it in qualtrics or by hoping you get the number of participants you want for the nonexperimental variable (e.g., Sex)
+
+## Experimental and Nonexperimental or Quasi-Experimental Research Strategies
+
+-   a combination of experimental and nonexperimental variables is a **combined strategy**
+
+    -   can also have an experimental and quasi-experimental OR
+
+    -   quasi-experimental and nonexperimental

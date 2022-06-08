@@ -1,0 +1,290 @@
+---
+title: "Research Strategies"
+subtitle: "PSY 4433"
+author: "Jonathan A. Pedroza, PhD"
+institute: "Cal Poly Pomona"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(xaringanthemer)
+style_duo(primary_color = '#56B4E9', secondary_color = 'black')
+```
+
+# Research Strategies 
+
+- **research strategy** is the approach to research determined by the resaerch question you hope to answer
+  - considering research questions you may have
+  - What type of design and analysis would be appropriate
+
+---
+
+# Descriptive Research Strategy
+
+- not interested in the relationship between two variables
+  - **descriptive research strategies** are interested in the description of individual variables
+  
+- What is the average age in the sample?
+
+- What is the proportions are the different groups in your sample?
+
+- How many participants did not answer certain questions?
+
+---
+
+# Strategies that Examine Relationships Between Variables
+
+- **positive relationship** is when IV increases, your DV increases
+  - **negative/inverse relationship** is when IV increases, your DV decreases (or vice versa)
+  
+- **linear relationship** is when the data points for your IV and DV show a line as the best-fitting model
+  - **curvilinear/quadratic relationship** is when the data points for your IV and DV could be better explained using a curved line
+  
+---
+
+# Example
+
+.pull-left[
+```{r, eval = TRUE, echo = FALSE, message = FALSE}
+mtcars %>% 
+  ggplot(aes(hp, mpg)) + 
+  geom_point() + 
+  geom_smooth(method = 'lm', se = FALSE)
+```
+]
+
+.pull-right[
+```{r, eval = TRUE, echo = FALSE, message = FALSE}
+mtcars %>% 
+  ggplot(aes(hp, mpg)) + 
+  geom_point() + 
+  geom_smooth(method = 'lm', se = FALSE,
+              formula = y ~ x + I(x^2))
+```
+]
+
+---
+
+# Correlational Research Strategy
+
+- **correlational research strategy** is used for examining two continuous variables
+  - ratio or interval
+  - shows potential relationships but does not explain the relationship
+
+- uses a scatterplot (previous slide) to see the corresponding points for participants between IV and DV
+
+---
+
+# Comparing Two+ Sets of Scores
+
+- **experimental research strategies** is supposed to show a cause-effect relationship between two variables
+  - needs two or more conditions to compare outcome on
+  - Ex: control vs treatment 1 vs treatment 2
+  - should have a random selection and assignment component
+
+- **quasi-experimental research strategies** tries to match control of experiments, but cannot have a true cause-effect relationship    
+  - there is no random assignment and groups are created/chosen in other ways
+  - Ex: Comparing teaching strategies for each 4433 class with test scores 
+
+- **nonexperimental research strategy**
+  - does not try to establish cause-effect relationship
+  - chooses groups but does not incorporate any sort of treatment
+  - Ex: do males and females differ in amount of time on phones
+
+---
+
+# Nonexperimental and Correlational Research
+
+- very similar, however the data structure looks differently
+  - all the same limitations
+  - only difference is the data structure
+
+---
+
+# 5 Research Strategies Organized By Data Structures
+
+1. Strategies that Examine Individual Variables
+
+2. Examine relationship between two or more variables for each participant (study time and sleep)
+
+3. Cause-effect relationship with random selection and assignment
+
+4. Attempt to produce cause-effect relationship, but no random selection and assignment
+
+5. Examine relationship between groups and outcome (sex and sleep)
+
+---
+
+# Strategies, Designs, & Procedures
+
+- **research strategies** are to have an approach to a research question for your study
+
+- **research designs** is how you plan to implement your research strategy
+  - group vs individual
+  - same individuals vs different individuals
+  - number of variables to be included
+  
+- **research procedures** are step-by-step description of your research study
+  - how will your IV be manipulated
+  - will there be deception
+  - how many participants
+
+---
+
+# Research Designs
+
+- group vs individual
+  - will you be comparing groups or examine all participants
+
+- same individuals vs different individuals
+  - will you be looking at the same participants over time while they receive all conditions
+  - will you be comparing different groups
+  - how will you be selecting these groups
+
+- number of variables to be included
+  - are you looking at one IV and one DV
+  - are you going to look at several IVs and several DVs
+  - are you going to look at one IV with different conditions and analyze these groups with different DVs
+
+---
+
+# Data Structures & Statistical Analysis
+
+- we'll be focusing on repeated measures, factorial, or mixed ANOVAs
+  - these tests all focus on comparing conditions (repeated measures), groups based on another IV (factorial), or comparing conditions (pre-post-test) while comparing groups
+
+---
+
+# External Validity
+
+- not like the validity of your measures
+  - although that is important
+
+- validity here refers to your study's design
+
+- **external validity** is how well you can generalize your study to people, settings, times, measures, and characteristics other than those used in your study
+  - using a sample of college students, how well would this generalize to adults in their 40s
+  
+- **threat to external validity** is any characteristic of a study that limits the ability to generalize study findings
+
+---
+
+# External Validity
+
+- generalization from a sample to a general population
+  - Ex: sample of adults in prison for the last 30 years
+  
+- generalization from one research study to another
+  - Ex: examining students at the University of Oregon and trying to compare to CSU students
+  
+- generalization from a research study to a real-world situation
+  - Ex: healthy eating experiment vs eating in real-world situation
+
+---
+
+# Internal Validity
+
+- **internal validity** is established if there is a single explanation for a relationship between two variables
+
+- **threats to internal validity** are any factors that allow for alternative explanations
+
+- What design would probably have the best internal validity? How about the worst design?
+
+---
+
+# Validity & Quality of Research Study
+
+- be aware to threats of internal validity when creating a research study
+  - experimental designs - focus on how to control for extraneous variables
+  - correlational designs - focus on incorporating confounding variables to be included in analyses
+
+---
+
+# Threats to External Validity
+
+- generalizations across participants
+  - **selection bias** is when there is not an equal chance of being selected, and some potential participants are being favored over others
+  - college students as a sample lack generalization to outside populations
+  - **volunteer bias** is when those that are most interested are those that only participate
+  - participant characteristics is important because demographic information can be crucial for generalization to other studies
+  - constructs like race/ethnicity, gender, sex, age, socioeconomic status, etc. help provide context for your sample
+  - cross-species generalizations is when using rats or other animals to generalize to humans
+  - Ex: drug trials showing benefits in rats
+
+---
+
+# Threats to External Validity
+
+- generalizing across features of study
+  - **novelty effect** is when participants perceive and respond differently than in the real world
+  - **multiple treatment interference** is when conducting within-subjects designs and participating in one condition carries over to the next condition
+  - often accompanied by **fatigue** (tired) and **practice effects** (know what to expect)
+  - experimenter characteristics are just how different are those administering the experiment
+  
+---
+
+# Threats to External Validity
+
+- generalizing across features of measures
+  - **sensitization** is the comparison between measuring constructs compared to real-world applications, where the construct may not be directly measured
+  - **pretest sensitization** is when using a pretest causes participants to be more aware of their behaviors
+  - generality across response measures is from different measures giving different findings, self-report vs physiological
+  - time of measurement can be a threat, because testing right after an intervention looks different than 6 months after the intervention
+
+---
+
+# Threats to Internal Validity
+
+- **extraneous variables**
+  - any variable in a study other than the specific variables being studied (IV and DV)
+
+- **confounding variables**
+  - extraneous variable that changes systematically along with IV and DV
+  
+---
+
+# Threats to Internal Validity
+
+- environmental variables
+  - size of the room, different room configurations, raining vs sunny days
+
+- **participant variables** are differences between each individual in your study
+  - individual differences can cause issues, primarily in experimental designs, if not using randomization
+
+- time-related variables
+  - within-subjects designs, where the amount of time between conditions can be a cause for issues with internal validity
+
+---
+
+# Balancing Internal and External Validity
+
+- needs to be a balance between external and internal validity
+  - trade offs are expected
+
+- artifacts distort measurements
+
+- experimenter bias is when an experimenter's influence is affecting the findings of the study
+  - single-blind and double-blind experiments can help mitigate this bias
+  
+- demand characteristics and reactivity can also impact your study if participants are behaving in ways outside of how they usually act
+
+---
+
+# Exaggerated Variables
+
+- while you are trying to have similar conditions on everything but the variable being manipulated, you may think about how much should you change some aspect of your manipulation
+  - Book: 2 degree change in room temperature may not be enough, 20 degree change may be too much
+  
+- Ex: How long should participants have to experience the manipulation?
+  - What is the average time to read a short passage?

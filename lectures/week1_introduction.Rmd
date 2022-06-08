@@ -1,0 +1,236 @@
+---
+title: "Week 1 - Introduction & Review"
+subtitle: "PSY 4433"
+author: "Jonathan A. Pedroza, PhD"
+institute: "Cal Poly Pomona"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(xaringanthemer)
+style_duo(primary_color = '#56B4E9', secondary_color = 'black')
+```
+
+# Agenda
+
+- Introductions
+  - Areas of Interest
+- Discuss main assignments
+  - Discussion Posts
+  - Exams
+  - Research Participation
+  - Creating an Experiment
+  - Creating a Survey
+  - Practicing our SPSS Skills
+  - Writing an IRB Proposal
+  - Writing for Funding of your Project
+    - Group Presentation Included
+  - Writing a Research Paper
+    - Group Presentation Included
+
+---
+
+# About Me
+
+.pull-left[
+![uo grad](useful_resources/uo_grad.jpg)
+]
+
+.pull-right[
+- My name is Jonathan A. Pedroza (he/him)
+  - please refer to me as **JP** unless around other instructors/faculty
+  
+- First-generation Graduate
+  - CPP Alumni (2014)
+  - CSUDH (2017)
+  - University of Oregon (2021)
+]
+
+---
+
+.pull-left[
+![hiking](useful_resources/hike.jpg)
+]
+
+.pull-right[
+![lucy](useful_resources/lucy.jpg)
+
+- Hobbies include: fishing, hiking, cooking, and coffee
+]
+
+---
+
+# Nerdy Stuff
+
+.pull-left[
+- Passion/Nerdy Topics:
+  - I love creating data visualizations in `R`
+  - health inequities in communities of color
+  - examining environmental variables that influence health behaviors
+]
+
+.pull-right[
+![non_passing_rate](useful_resources/non_passing_rate_visualization.png)
+]
+
+
+---
+
+# Tell Me About Yourself
+
+- Name, Activity Section, and pronouns
+
+- What do you want to do after you graduate?
+
+- What is your experience with statistics and SPSS?
+
+- What is your experience with conducting research?
+
+- Name a topic/area of interest for you that you would want to 
+
+---
+
+# Creating an Experiment
+
+.pull-left[
+- the experiment will revolve around group work
+  - groups of 2 to 3...unless you want to work alone
+
+- find someone who has a similar area of interest
+
+- plan to set times to work with your group to find times to administer test/survey
+]
+
+.pull-right[
+![](https://media.giphy.com/media/VfyC5j7sR4cso/giphy.gif)
+]
+
+---
+
+# Creating an Experiment
+
+- you will have to use more complex statistical analyses learned in PSY 3307
+
+- Two options for research designs
+  - repeated-measures design
+  - factorial design
+
+![](https://media.giphy.com/media/9ADoZQgs0tyww/giphy.gif)
+
+---
+
+# Getting Creative
+
+.pull-left[
+- Who is entirely online other than me?
+
+![](https://media.giphy.com/media/26BRuo6sLetdllPAQ/giphy-downsized-large.gif)
+]
+
+.pull-right[
+- if CPP stays online, you'll have to get creative when administering your experiment
+  - Ex: random selection = randomly putting participants into two break-out rooms in a zoom session
+  - Ex: separate zoom rooms based on a criteria, taking survey within a certain time after eating dinner to see if it has an effect on what you are studying
+]
+
+---
+
+# Getting Creative
+
+- we will have discussion assignments where everyone will share their designs/surveys/etc. and **ALL** other students will offer some thoughts on improving the design/survey/etc.
+
+---
+
+# Creating a Survey
+
+- we will work on this together during lab time
+
+- we will practice using either `SurveyMonkey` or `Qualtrics`
+
+---
+
+# Writing an IRB Proposal
+
+- Think of this as a working outline for writing the funding paper and the final research paper
+
+- we will work on each part during lab and you will finalize each part to finish each paper
+
+---
+
+# Writing for Funding of your Project
+
+.pull-left[
+![](https://media.giphy.com/media/LdOyjZ7io5Msw/giphy.gif)
+]
+
+.pull-right[
+- will probably be the most difficult assignment
+
+- a lot of formatting, but we'll cover this and you'll have examples
+
+- used by many organizations
+  - non-profits
+  - academics
+  - (private/public) research institutions
+  - grant writer is a full-time position
+]
+
+---
+
+# Final Paper
+
+- Cover the main parts of the paper
+  - Introduction
+  - Method
+  - Results
+  - Discussion
+  - Formatting
+
+- Everything used in the IRB proposal and the funding proposal will make up a good chunk of this paper
+  - you also have group members to help you out
+
+---
+
+# Group Presentations
+
+.pull-left[
+![](https://media.giphy.com/media/RHOwWKH5OY7buuGHNi/giphy.gif)
+]
+
+.pull-right[
+- Everyone is expected to participant in both presentations
+- When not presenting, every other student will be required to ask a thought-provoking question about the presentation
+]
+
+---
+
+# What I Need From You
+
+- Cameras are optional
+  - It helps me see if you are confused
+  
+- Unmute yourself and interrupt me
+
+- put in the chat that you are confused
+
+- private message me in the chat that you are confused
+
+---
+
+# Why All of The Assignments JP?
+
+![](https://media.giphy.com/media/l0IyhwEfKdNoUZ1ni/giphy.gif)
+
+- Survey design, creating a design, writing research papers, and applying for funding are all useful skills
+  - throw in statistics and you can be pretty marketable

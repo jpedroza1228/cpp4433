@@ -1,0 +1,252 @@
+---
+title: "More Experimental Design"
+subtitle: "PSY 4433"
+author: "Jonathan A. Pedroza, PhD"
+institute: "Cal Poly Pomona"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(xaringanthemer)
+style_duo(primary_color = '#56B4E9', secondary_color = 'black')
+```
+
+# External Validity
+
+- this form of validity is about how well your study *generalizes* both to other studies and to the general public
+  - experiments can provide useful information about a relationship
+  - not necessarily the best for generalizing 
+  - this goes along with the concept of efficacy, which is how well a study does in a controlled environment
+  
+- real-world interventions and field studies provide better external validity
+  - also establish effectiveness
+
+---
+
+# Pros & Cons of Control Methods
+
+- holding constant
+  - limits generalization 
+  - too much control
+  - standardizes the experiment
+
+- randomization
+  - accounts for influences of extraneous variables
+  - may not fully account for all extraneous variables
+  - random assignment *should* account for these variables
+
+---
+
+# Control Conditions & Manipulation Checks
+
+- experimental condition
+  - group that gets the experiment/stimuli
+
+- control condition
+  - group that gets either no stimuli, a limited stimuli, or a placebo
+
+---
+
+# No-Treatment Control Conditions
+
+- instances where the control group does not get any stimuli/condition
+
+- Ex: Drug trials
+  - participants in the control group don't get any drug/placebo
+  
+- Issues
+  - do not control for participant expectancies
+  - ethical considerations about not providing anything to participants of control groups
+
+---
+
+# Placebo Control Conditions
+
+- **placebo** is an inert medication (sugar pills) or a fake treatment, which should have no medicinal effect
+  - can produce positive or helpful effects based on expectations
+  - **nocebo** is a inert substance that can cause negative or harmful effects based on expectations 
+  
+- **placebo effect** is when the mind/psyche is having an effect on the body
+  - psychosomatic effect on participants
+
+
+---
+
+# Placebo Control Conditions
+
+- generate serious questions about interpretation
+  - is the observed effect due to the treatment or because the placebo effect
+
+- **outcome research** investigates effectiveness of a treatment
+  - concerned with the outcome of the treatment than any part of the treatment
+
+- **process research** is focused on the components of the treatment
+  - what is actually working in an experiment/intervention
+
+---
+
+# Placebo Control Conditions
+
+- **placebo control conditions** are when participants receive a placebo instead of the actual treatment
+  - tests to see how much of the effect was due to the treatment vs the placebo effect
+  - can then compare the no-treatment control group to see if there was an effect on the outcome from the placebo
+  
+- Controlling for extraneous variables & control group
+  - control group = either no treatment or placebo
+  - controlling for variables = accounting for external factors that could influence your experiment
+    
+    + **internal validity** is the support for the cause-effect relationship and that your sample is representative of the population
+
+---
+
+# Manipulation Checks
+
+- additional measure to assess how participants perceived the manipulation
+  - also measures the direct effect of the manipulation
+  - makes sure that IV has the desired effect on DV
+  
+- other manipulation checks should be included in your surveys
+  - You should have a question that is EXTREMELY straightforward
+  
+    + Ex: *Small passage*. Click on the year 2022.
+    
+---
+
+# Manipulation Checks
+
+- two ways to check the manipulation
+
+1. Explicit measure of the IV
+  - include an additional 
+
+2. Embed specific questions about the manipulation in the survey after participating
+  - Did you enjoy participating?
+  - What do you think was the purpose of the experiment?
+  - Did you suspect that you were being deceived?
+
+---
+
+# Manipulation Checks
+
+Most important scenarios for manipulation checks
+
+1. Participant Manipulations
+  - want to double check that your manipulation/treatment group is getting at the construct that you were interested in measuring
+  - Ex: wanting to study stress but find out participants had low levels of stress with a self-report measure
+
+2. Subtle Manipulations
+  - the manipulation may be subtle, such as changing a small detail in the design
+  - Ex: changing the words in a short story with uncommon synonyms
+
+---
+
+3. Placebo Controls
+  - asking about a placebo can check that participants thought the drug/treatment was real
+
+4. Simulations
+  - check to see if participants perceive and respond to the simulation (real-world environement of an experiment)
+---
+
+# Simulations
+
+![simulation rick and morty](https://media.giphy.com/media/QsgGcGCxb0mSR0PnkY/giphy.gif)
+
+---
+
+# Simulations
+
+- **simulation** is a creation of conditions/treatments in an experiment that simulate or duplicate the natural environment
+  - Ex: flight simulators are not real-world scenarios but are supposed to train pilots to be prepared for the real world
+  
+- **mundane realism** is superficial changes to the physical environment to make experiments seem less like lab settings and more like the real world
+
+- **experimental realism** is more concerned with the psychological aspects to a simulation
+  - participants become immersed in the environment; forget they're in an experiment
+
+---
+
+# Simulation Example
+
+- Stanford Prison Experiment
+  - guards, prisons, even Zimbardo (warden) started to believe their roles
+  - made the basement of a building feel like a real prison
+
+---
+
+# Field Studies
+
+- **field studies** takes an experimental design and puts it in a place that participants perceive is the natural environment
+
+- Some great examples of field studies are *bystander apathy*
+  - participants helping others (confederates) in a public setting
+  
+---
+
+# Pros & Cons of Simulations & Field Studies
+
+- get more generalizable findings because they are in real-world scenarios
+
+- loses control (internal validity) over the situation because real-world
+  - no control over participants who are being observed
+
+---
+
+# Extra
+
+- a more real-world experience would be creating an intervention
+  - an "experiment" in a completely real-world scenario
+  
+- from these interventions, you can then move into creating a program
+  - often referred to as an **Evidence-based Program**
+  - programs that have been tested in controlled lab settings and translated into practical models
+  
+- these can be programs that are used in communities, schools, businesses, etc.
+
+---
+
+.pull-left[
+![re-aim framework](https://www.frontiersin.org/files/Articles/109697/fpubh-02-00143-HTML-r1/image_m/fpubh-02-00143-g001.jpg)
+]
+
+.pull-right[
+![re-aim 2](https://ars.els-cdn.com/content/image/1-s2.0-S2211335517300657-gr1.jpg)
+]
+
+- Implementation Science & Dissemination
+  - studying no longer participants but how programs are delievered
+
+---
+
+# Extra
+
+.center[
+![research to practice](https://online.stat.psu.edu/onlinecourses/sites/stat507/files/lesson11/transfer_knowledge.gif)
+]
+
+---
+
+# Extra
+
+- Steps
+  - Basic Research (correlational studies)
+  - Applied Research
+    + Experimental Studies
+    
+    + Intervention Studies/Simulations/Field Studies
+    
+    + Systematic Reviews/Meta-Analyses/Synthesis of Evidence
+    
+    + Evidence-Based Programs
+    
+  - Used in Real World 

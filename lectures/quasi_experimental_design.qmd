@@ -1,0 +1,381 @@
+---
+title: "Nonexperimental & Quasi-Experimental Strategies"
+author: "Jonathan A. Pedroza, PhD"
+format: beamer
+editor: visual
+---
+
+## Nonexperimental & Quasi-Experimental Research Strategies
+
+-   sometimes it can be impossible to meet the requirements for an experiment
+
+    -   when there are confounding variables
+
+-   nonexperimental studies can minimize threats to internal validity by changing them to become quasi-experimental studies
+
+-   **nonexperimental research strategies** and **quasi-experimental research strategies** differ by quasi-experiments limiting confounding variables and attempts to control threats to internal validity
+
+    -   both compare group differences on your outcome of interest
+
+## Nonexperimental & Quasi-Experimental Research Strategies
+
+## Nonexperimental & Quasi-Experimental Research Strategies
+
+-   groups are usually created that cannot be randomly assigned
+
+    -   college graduate vs no college
+
+    -   boys vs girls
+
+    -   cat owners vs dog owners vs other animal owners
+
+-   two methods for defining groups using these methods
+
+    -   between-subjects design: nonequivalent group designs
+
+    -   within-subjects design: pre-post designs
+
+## Examples of Both Methods
+
+-   Nonequivalent Group Designs
+
+    -   compares preexisting groups
+
+        -   differential research designs
+
+        -   posttest-only nonequivalent control group design
+
+        -   pretest-posttest nonequivalent control group design
+
+        -   cross-sectional developmental design
+
+## Examples of Both Methods
+
+-   pre-post designs
+
+    -   compares two or more scores for all participants
+
+        -   pretest-posttest design
+
+        -   time-series design
+
+        -   longitudinal developmental design
+
+## Between-Subjects: Nonequivalent Group Designs
+
+-   when you can't randomly separate into groups and you need to make comparisons between groups
+
+    -   Book: comparisons in test performance between schools that are comparing students who can use electronic devices vs those that cannot use electronic devices
+
+-   **nonequivalent group design** is when there is no way you can separate groups using experimental strategies
+
+    -   groups are considered nonequivalent because the groups could be different from one another and the researcher cannot control for that
+    -   How would your study and the expected findings be different if you had two preexisting groups to compare?
+
+## Between-Subjects: Nonequivalent Group Designs
+
+-   Threats to Internal Validity
+
+    -   nonequivalent group designs always have threats to internal validity
+
+        -   cannot have cause-effect relationship
+
+    -   **individual differences** are going to be one of the largest contributors to internal validity threat
+
+        -   since we can't use methods to minimize individual differences (randomization, matching, etc.) we have to assume that the groups could already potentially be different from one another
+
+        -   there are many confounding variables that could be different, from the book example above, what are some potential confounding variables?
+
+## Nonexperimental Designs with Nonequivalent Groups
+
+-   **differential research designs** is a nonexperimental design (no manipulation) where you are interested in if there are differences betweeen the groups
+
+    -   What is an example of a differential research design, that cannot be an experimental design
+
+        -   Book: Comparing children from single-parent households and two-parent households in their self-esteem
+
+    -   JP: The book talks about how nonexperiments and correlations are different because nonexperiments split continuous variables into groups, while correlational designs use continuous data
+
+## Nonexperimental Designs with Nonequivalent Groups
+
+-   **nonequivalent control group design** use preexisting groups, where one group is used as a control and the other group is used as a treatment condition
+
+    -   Ex: comparing this class to a philosophy class in math knowledge
+
+-   **posttest-only nonequivalent control group design** also seen as a static group comparison
+
+    -   one or more groups gets a treatment, while another group is seen as the control, only one point of gathering data (posttest)
+
+        -   no randomization
+
+## Quasi-Experimental Design With Nonequivalent Groups
+
+-   **pretest-posttest nonequivalent control group design** involves gathering data before treatment/control and then after the treatment/control condition
+
+    -   allows researchers to have a baseline and can compare groups at baseline to see if the groups are similar
+
+    -   accounts for time-related threats to internal validity because both conditions are experiencing the same threats
+
+-   What is history? How does it affect participants?
+
+-   **differential effects** are differences between the conditions/groups that could be explained by different histories
+
+## Within-Subjects: Pre-Post Designs
+
+-   **pre-post designs** are slightly different from the pretest-posttest nonequivalent control group designs, because this is a within-subjects design
+
+    -   one group of participants are experiencing the same treatment and are being tested before and after the treatment
+
+    -   What is missing between the pre-post design and pretest-posttest nonequivalent control group design?
+
+## Within-Subjects: Pre-Post Designs
+
+-   Threats to internal validity for pre-post designs
+
+    -   history
+
+    -   instrumentation
+
+    -   order effects
+
+    -   maturation
+
+    -   statistical regression
+
+-   Similar to a within-subjects experimental design, however; it lacks \_\_\_\_\_\_\_\_\_\_ to address the threats to internal validity
+
+    -   Why is \_\_\_\_\_\_\_\_ blank not able to be used in a pre-post design
+
+## Within-Subjects: Pre-Post Designs
+
+-   nonexperimental pre-post design
+
+    -   pretest-posttest design is the simplest nonexperimental pre-post design where you recruit a representative sample and test them before your treatment and then after your treatment
+
+    -   Ex: examining test scores before and after a pandemic
+
+## Within-Subjects: Pre-Post Designs
+
+-   quasi-experimental pre-post design
+
+    -   **time-series design** is a series of observations for each participant before a treatment followed by a series of observations after the treatment
+
+        -   Ex: I ask you what your stress level is --> give you a pop quiz worth half your grade and tell you there will be more pop quizzes --> then never give you another pop quiz
+
+        -   [google trends](https://trends.google.com/trends/?geo=US)
+
+    -   **interrupted time-series design** is when the treatment is not caused by the researcher
+
+        -   Ex: COVID cases as a new variant comes out
+
+        -   What could be another interrupted time-series?
+
+## Within-Subjects: Pre-Post Designs
+
+-   All of these tests are useful in examining trends before something happens and seeing how it may affect an outcome over time
+
+    -   while there are threats to internal validity, if the data is stable before treatment, you may assume it is fine
+
+-   possible there may be a trend already that is not contributed by your treatment/manipulation
+
+-   can also only examine a single participant over time
+
+    -   single-case applications of time-series designs called **single-subject designs** or **single case** are the examination of a single participant for a extended period of time
+
+        -   it does not have to be an individual, it could be a single entity
+
+    -   What are other entities that can be examined over time?
+
+## Example![](images/paste-585CABEE.png)
+
+---
+
+## Example
+
+![](images/paste-30488491.png)
+
+## Developmental Research Designs
+
+-   **developmental research designs** are used to examine changes in behavior in relation to participants' age
+
+-   What is a construct that would be useful for examining through a developmental research design?
+
+-   there are two types of developmental research designs
+
+    -   cross sectional (measured once) and longitudinal (measured multiple times)
+
+## Developmental Research Designs
+
+-   **cross-sectional developmental research design** use different groups of individuals, each representing a different age
+
+    -   these groups are examined at one time point and then compared
+
+    -   What type of design do cross-sectional developmental research designs fall under?
+
+    -   JP: cross sectional term is often used in correlational designs where you test a sample once
+
+        -   JP: can be expanded on, where you then look at a relationship between IV and DV but separate this relationship by age group
+
+## Developmental Research Designs
+
+-   strengths & weaknesses
+
+    -   strengths include being able to make comparisons between developmental periods
+
+    -   data can be collected in short period of time
+
+    -   does not require researcher to follow or track participants
+
+    -   limited in conclusions that are drawn (can't say for certain these trends/patterns/relationships due to differences in age)
+
+    -   **cohorts** are participants that are of the same age (or are grouped together by some characteristic)
+
+    -   What is a cohort that you belong to?
+
+    -   Age cohorts may experience different situations/issues/benefits
+
+    -   What are some things that you face that your parents/grand parents/great-grand parents did not have to face?
+
+    -   these environmental differences in age groups are called **cohort effects** or **generation effects**
+
+## Example
+
+![](images/paste-1109AFC2.png)
+
+## Longitudinal Developmental Research Design
+
+-   **longitudinal developmental research design** are when researchers follow groups/cohorts over an extended period of time
+
+    -   Ex: [the 1970 British Cohort Study](https://cls.ucl.ac.uk/cls-studies/1970-british-cohort-study/)
+
+    -   it is a within-subjects nonexperimental design
+
+        -   one-group pretest-posttest design where treatment is age
+
+-   Book: well-being of a group of adolescents before and after parents' divorce
+
+    -   Is this a time-series question or a longitudinal design?
+
+## Longitudinal Developmental Research Design
+
+-   strengths & weaknesses
+
+    -   accounts for cohort effects
+
+        -   same people are not different from themselves
+
+    -   more conclusive because researchers can see how a behavior/other construct changes over time
+
+    -   expensive
+
+        -   need a lot of money to keep people interested for months/years/decades
+
+    -   high dropout rates
+
+        -   **participant attrition** or **participant mortality**
+
+        -   these dropouts may influence how representative your sample is of the given population
+
+    -   same participants being tested using the same measures
+
+## Longitudinal Developmental Research Design
+
+-   cross-sectional designs can be somewhat comparable to longitudinal designs by examining cross-sectional relationships for several time points
+
+    -   has been referred to as **cross-sectional longitudinal designs**
+
+## Example
+
+![](images/paste-1A9CC930.png)
+
+## Comparing Cross-sectional and Longitudinal Designs
+
+-   cross-sectional
+
+-   longitudinal
+
+## Comparing Cross-sectional and Longitudinal Designs
+
+-   cross-sectional
+
+    -   strengths
+
+        -   time-efficient
+
+        -   no long-term cooperation required
+
+    -   Weaknesses
+
+        -   individual changes not assessed
+
+        -   cohort/generation effects
+
+-   longitudinal
+
+    -   strengths
+
+        -   no cohort effects
+
+        -   assess individual behavior changes
+
+    -   weaknesses
+
+        -   time consuming
+
+        -   attrition
+
+        -   potential for practice effects
+
+## Applications, Statistical Analysis & Terminology
+
+-   application & analysis
+
+    -   quasi-experimental and experimental designs tend to use the same statistical analyses
+
+-   comparing means between two groups/conditions
+
+    -   t-test (independent or dependent)
+
+-   multiple groups
+
+    -   ANOVA
+
+-   multiple conditions
+
+    -   repeated-measures ANOVA
+
+-   non-numerical outcome
+
+    -   chi-square (not going to focus on this concept for this class)
+
+-   If you are using a longitudinal study with more than 3 time points then none of these analyses are helpful
+
+    -   these all treat time points (month, year, decade) as categorical variable
+
+        -   comparing time point 1 to time point 2 and time point 3
+
+        -   more appropriate analyses treat time as a continuous variable
+
+## Applications, Statistical Analysis & Terminology
+
+-   pretest-posttest nonequivalent control group design
+
+    -   multiple time points and multiple groups
+
+        -   mixed-design ANOVA
+
+        -   making comparisons between time points
+
+        -   making comparisons between groups
+
+        -   examining interaction between time points and groups
+
+---
+
+## Applications, Statistical Analysis & Terminology
+
+-   **quasi-independent variable** = independent variable
+
+-   **dependent variable** = outcome
+
+-   time-series analyses compares values before treatment and after treatment

@@ -1,0 +1,466 @@
+---
+title: "Spring 2022 Course Syllabus"
+subtitle: "PSY 4433-05/4433A-10/11: Experimental Psychology"
+author: "Jonathan A. Pedroza, PhD"
+date: "`r Sys.Date()`"
+output:
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+---
+
+```{css my-header-colors, echo = FALSE}
+.page-header {
+  color: #FAE9A0;
+  text-align: center;
+  background-color: #005C55;
+  background-image: linear-gradient(120deg, #7DA37B, #005C55);
+}
+
+a {
+  color: #F1C40F; #color of linked inline code
+  font-weight: bold;
+  text-decoration: none;
+}
+  a:hover {
+    text-decoration: underline;
+    }
+
+.main-content {
+  word-wrap: break-word; }
+  .main-content :first-child {
+    margin-top: 0; }
+  @media screen and (min-width: 64em) {
+    .main-content {
+      max-width: 64rem;
+      padding: 2rem 6rem;
+      margin: 0 auto;
+      font-size: 1.1rem; } }
+  @media screen and (min-width: 42em) and (max-width: 64em) {
+    .main-content {
+      padding: 2rem 4rem;
+      font-size: 1.1rem; } }
+  @media screen and (max-width: 42em) {
+    .main-content {
+      padding: 2rem 1rem;
+      font-size: 1rem; } }
+  .main-content img {
+    max-width: 100%; }
+  .main-content h1,
+  .main-content h2,
+  .main-content h3,
+  .main-content h4,
+  .main-content h5,
+  .main-content h6 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+    color: #3F7F68; } # header color
+  .main-content p {
+    margin-bottom: 1em; }
+  .main-content code {
+    padding: 2px 4px;
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-size: 0.9rem;
+    color: #005C55; #package color/whatever is in `` brackets
+    background-color: #7DA37B; #background color of ``brackets
+    border-radius: 0.3rem; }
+  .main-content pre {
+    padding: 0.8rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    color: #567482;
+    word-wrap: normal;
+    background-color: #f3f6fa; #background color of code chunks
+    border: solid 1px #005C55; #this is the border of the r code chunks
+    border-radius: 0.3rem; }
+    .main-content pre > code {
+      padding: 0;
+      margin: 0;
+      font-size: 0.9rem;
+      color: #5D6D7E;
+      word-break: normal;
+      white-space: pre;
+      background: transparent;
+      border: 0; }
+  .main-content .highlight {
+    margin-bottom: 1rem; }
+    .main-content .highlight pre {
+      margin-bottom: 0;
+      word-break: normal; }
+  .main-content .highlight pre,
+  .main-content pre {
+    padding: 0.8rem;
+    overflow: auto;
+    font-size: 0.9rem;
+    line-height: 1.45;
+    border-radius: 0.3rem;
+    -webkit-overflow-scrolling: touch; }
+  .main-content pre code,
+  .main-content pre tt {
+    display: inline;
+    max-width: initial;
+    padding: 0;
+    margin: 0;
+    overflow: initial;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0; }
+    .main-content pre code:before, .main-content pre code:after,
+    .main-content pre tt:before,
+    .main-content pre tt:after {
+      content: normal; }
+  .main-content ul,
+  .main-content ol {
+    margin-top: 0; }
+  .main-content blockquote {
+    padding: 0 1rem;
+    margin-left: 0;
+    color: #819198;
+    border-left: 0.3rem solid #dce6f0; }
+    .main-content blockquote > :first-child {
+      margin-top: 0; }
+    .main-content blockquote > :last-child {
+      margin-bottom: 0; }
+  .main-content table {
+    display: block;
+    width: 100%;
+    overflow: auto;
+    word-break: normal;
+    word-break: keep-all;
+    -webkit-overflow-scrolling: touch; }
+    .main-content table th {
+      font-weight: bold; }
+    .main-content table th,
+    .main-content table td {
+      padding: 0.5rem 1rem;
+      border: 1px solid #e9ebec; }
+  .main-content dl {
+    padding: 0; }
+    .main-content dl dt {
+      padding: 0;
+      margin-top: 1rem;
+      font-size: 1rem;
+      font-weight: bold; }
+    .main-content dl dd {
+      padding: 0;
+      margin-bottom: 1rem; }
+  .main-content hr {
+    height: 2px;
+    padding: 0;
+    margin: 1rem 0;
+    background-color: #5E9171; #line to break up sections
+    border: 0;
+}
+```
+
+## Meeting Time
+
+### Lecture: **M/W 6-7:15pm**
+
+### PSY 4433A-10 Activity: **M 4-5:50pm**
+
+### PSY 4433A-11 Activity: **W 4-5:50pm**
+
+-----------------------------------
+
+## Instructor: Jonathan A. Pedroza, PhD
+
+### Preferred Name(s): JP, Jon
+
+### Pronouns: he/him/his
+
+### Email: japedroza@cpp.edu
+
+-----------------------------------
+
+## Office: Virtual
+
+### Office Hours: **W 2-4pm**, email if time does not work
+
+-----------------------------------
+
+## Required Materials: Textbook & SPSS
+
+## Optional Materials: APA 7th Edition Manual
+
+## Required Text: [Gravetter, Frederick J. & Forzano, Lori-Ann B. (2018). *Research Methods for the Behavioral Sciences.* (6th Edition) Boston: Cengage Learning ISBN:	9781337613316](https://www.google.com/search?q=research+methods+for+the+behavioral+sciences&rlz=1C1CHBF_enUS926US926&oq=Research+Methods+for+the+Behavioral+Sciences&aqs=chrome.0.35i39j46i512j0i512l6j46i512j0i512.570j0j7&sourceid=chrome&ie=UTF-8)
+
+## SPSS: [CPP Virtual Lab](https://www.cpp.edu/it/virtual-software-lab/index.shtml)
+
+## OneDrive: [OneDrive Recordings](https://livecsupomona-my.sharepoint.com/:f:/g/personal/japedroza_cpp_edu/ErXOwUp0XIxMuVLEmXmoVsUBnurbqUVZUIqNeV9LkGBUpA?e=zdXGDU)
+
+-----------------------------------
+
+## Corequisites: PSY 4433 & PSY 4433A
+
+## Prerequisites: PSY 2201, PSY 2204, & PSY 3307/3307A
+
+-----------------------------------
+
+## Zoom Information:
+
+### PSY 4433 Lecture: https://cpp.zoom.us/j/83501705321
+### Meeting ID: 835 0170 5321
+
+### PSY 4433A-10: https://cpp.zoom.us/j/86593597665
+### Meeting ID: 865 9359 7665
+
+### PSY 4433A-11: https://cpp.zoom.us/j/83597827008
+### Meeting ID: 835 9782 7008
+
+-----------------------------------
+
+# Course Description & Objectives
+
+This course is designed to further your knowledge on correlational and experimental research designs with an emphasis on **experimental designs**. Students will learn aspects of advanced research designs including how to design and conduct an experimental from coming up with a research idea to completing a research/project paper. Students will also learn to critically evaluate research. 
+
+-----------------------------------
+
+# Course Structure
+
+This course will be conducted online (i.e., no face-to-face meetings) in a synchronous format (i.e., lectures and activities scheduled at specific times). Course content will be provided via Canvas. Lectures and activities will be conducted via Zoom. Lectures will include presentations on topics from the textbook as well as applied   
+
+Activities will be ~90 minutes of discussing with your group members what you'd like to do with your project. The last 20 minutes of the activity portion will be to explain what their process was for what they were doing and asking for questions. 
+
+-----------------------------------
+
+# Grading Policy
+
+**Overview**: 
+
+A total of 500 points will be available for this course based on `2` exams, `15` discussion posts, `1` IRB proposal paper, `1` funding proposal paper, 2 hours of SONA experiment participation, `1` final research paper, `1` Qualtrics survey assignment, and `2` presentations.
+
+```{r, include = FALSE}
+library(tidyverse)
+library(kableExtra)
+
+table <- tibble::tibble(Assignments = c("Exam",
+                                        "Discussion Posts",
+                                        "IRB Proposal",
+                                        "Funding Proposal",
+                                        "Research Participation",
+                                        "Final Research Paper",
+                                        "Qualtrics",
+                                        "Presentation",
+                                        "Total Class Points"),
+                        Amount = c("2",
+                                   "15",
+                                   "1",
+                                   "1",
+                                   "2 hours",
+                                   "1",
+                                   "1",
+                                   "2",
+                                   ""),
+                        Points_Each = c("100",
+                                        "2",
+                                        "30",
+                                        "50",
+                                        "10",
+                                        "100",
+                                        "20",
+                                        "25",
+                                        ""),
+                        Percent_of_Grade = c("40%",
+                                             "6%",
+                                             "10%",
+                                             "10%",
+                                             "4%",
+                                             "20%",
+                                             "4%",
+                                             "10%",
+                                             "100%"),
+                        Total_Points = c("200",
+                                         "30",
+                                         "30",
+                                         "50",
+                                         "20",
+                                         "100",
+                                         "20",
+                                         "50",
+                                         "500"))
+```
+ 
+```{r, echo = FALSE, eval = TRUE}
+kbl(table) %>% 
+  kable_styling(bootstrap_options = c("striped", "hover"),
+                position = "center")
+```
+ 
+**Final Grade:** 
+
+Your final grade will be the same for the lecture and activity based on the following scale: 
+
+```{r, include = FALSE}
+table2 <- tibble::tibble(Letter_Grade = c("A", "A-",
+                                          "B+", "B", "B-",
+                                          "C+", "C", "C-",
+                                          "D+", "D", "D-",
+                                          "F"),
+                         Points = c("457.5 - 500", "447.5-457",
+                                    "437.5-447", "407.5-437", "397.5-407",
+                                    "387.5-397", "357.5-387", "347.5-357",
+                                    "337.5-347", "307.5-337", "297.5-307",
+                                    "0-297.5"),
+                         Percentages = c("91.5-100", "89.5-91.4",
+                                    "87.5-89.4", "81.5-87.4", "79.5-81.4",
+                                    "77.5-79.4", "71.5-77.4", "69.5-71.4",
+                                    "67.5-69.4", "61.5-67.4", "59.5-61.4",
+                                    "0-59.5"))
+```
+
+```{r, echo = FALSE, eval = TRUE}
+kbl(table2) %>% 
+  kable_styling(bootstrap_options = c("striped", "hover"),
+                position = "center")
+```
+
+-----------------------------------
+
+# Assignments
+
+**For all group assignments, all students must be in the same activity section.**
+
+## **Discussion Posts**
+
+Every week when we meet for the lab section of this course, we will have time designated at the end of the class to discuss as many of the groups' progress and any questions they may have. Each group will be expected to talk about their progress and will either pose questions to the rest of the class on something they may not be sure about or explain their process of their decisions made on their experiment. The order on which groups will discuss their experiments will be at the instructor's discretion. Any group that does not get to talk about their experiment will be first to discuss the following week. 
+
+While there will be time to discuss each group's progress during the lab time, not every student will be able to participate due to time constraints. To make sure every student's voice is heard, discussion boards will be created for each week that will **open starting from the time right after class** and will **close the second the lab section starts**. If you do not post a question for each group by the beginning of the following lab, you will lose points for that week. 
+
+## **IRB Proposal**
+
+The first writing assignment will be an IRB proposal. An IRB proposal is a document covering every part of your study to make sure your research is ethical and will not cause harm to your sample of participants. There are several parts to a IRB proposal that will be covered in the class. These include:
+
+- Getting CITI training to certify you will be conducting ethical research
+- The focus of your research
+- The methods and the design of your study, including your design
+- Discussion of vulnerable participants
+- Data collection and data security
+- Risks to participants
+- Researcher level of training
+- Consent forms
+
+While the IRB proposal is only one assignment, you will be submitting each component for review. This will be reviewed and given back to you on a weekly basis. This will be a group assignment. A rubric will be provided with more details. Peer evaluations will be considered for this assignment's grade. 
+
+## **Funding Proposal**
+
+Students will adapt their IRB proposals to be used as a proposal for a funding source. Students will write a hypothetical grant to "fund" their research project. While many of the characteristics are similar to that of the IRB proposal, there are formatting constraints for this proposal. While communication about the sections of the paper are encouraged, the final proposal will be an individual assignment. A rubric will be provided with more details. 
+
+## **SONA Research Participation**
+
+All students will be required to complete 2 SONA credits (equivalent to two hours) by participating in research conducted by Psychology Department faculty or students. Most studies range from 15 minutes to one hour long. Students can participate in a combination of studies as long as it results in two hours of completed research participation. The SONA administrator will create a participant account for students. Sign up for studies at https://cpp.sona-systems.com. The last day to participate is **Friday, May 7th** but students should plan to participate before then. Students do not need to inform me when they have participated in research. I have access to this information via the SONA system. I will post SONA participation points earned late in the semester.
+
+Students that prefer not to participate in research can complete an alternative assignment. The assignment involves reading and writing a one-page summary of a research article. To earn one credit, the article must be six or more pages long. To earn .5 credit, the article can be five pages or fewer. For more information, see the SONA Alternative Research Assignment handout. The alternative assignment must be submitted to the SONA Systems Alternative Research organization, NOT to me by the deadline of Friday of Week 14 at 5 p.m.
+Any questions about the Alternative Research Assignment should be directed to the SONA administrator, Dr. Kevin Autry `ksautry@cpp.edu`.
+
+You may also combine research participation and the alternative research assignment to earn the two credits. 
+
+## **Final Research Paper**
+
+This paper will follow a typical research paper in a social science journal. This paper will consist of the typical sections of a research paper (introduction, method, results, discussion). This will be a group assignment. A rubric will be provided with more details. Peer evaluations will be considered for this assignment's grade. 
+
+## **Qualtrics Survey Assignment**
+
+Since it is highly likely that we will be online for a significant part of the semester. We will work on creating a survey online to distribute to your participants. In the event that we are able to have in-person experiments, you will be able to keep the online survey or make an in-person survey for this assignment. Peer evaluations will be considered for this assignment's grade. 
+
+## **Presentations**
+
+There will be two presentations, one for the funding assignment and one for the final research paper. Each student will be expected to present a part of each assignment. A rubric will be provided with more details. Peer evaluations will be considered for this assignment's grade. 
+
+## **Exams**
+
+There will be two exams and no final exam. Each exam will be given through `Canvas` and will consist of True/False, Multiple Choice, Matching, and Fill in the blanks. Exams will be given on the date listed. Exams will be open-book/open-note, but must be completed individually. Students will have a 48-hour time window from the listed date. No late exams will be accepted.
+
+-----------------------------------
+
+# Other Policies
+
+## **Attendance**
+
+While attendance is not required, student attendance is dependent on the student's group. Any indication from group members that any student is not participating in group assignments will lead to being dropped from the group. If dropped from the group, the student will be responsible for conducting the experiment on their own. Communication between group members is essential. 
+
+## **Academic Integrity:** 
+
+Students are expected to adhere to the University’s Student Conduct Code (https://www.cpp.edu/studentconduct/student-conduct-code.shtml). Academic integrity violations, including, but not limited to, cheating and plagiarism, may result in a 0 for an assignment or exam and will be reported to the Office of Student Conduct & Integrity.
+
+## **Accommodations:** 
+
+Reasonable accommodations will be provided for students with learning, physical, or other disabilities. Accommodations approved through the Disability Resource Center (909-869-3333) should be discussed with the instructor early in the semester to ensure appropriate implementation. 
+
+## **Distribution of Course Materials:** 
+
+Do not copy/screenshot or retain any exam questions. Violation of this policy is grounds for disciplinary action. Distribution of other course materials, including slides, video lectures, and papers, is acceptable. 
+
+## **Mandatory Reporting:**
+
+Please note two executive orders from the CSU’s Office of the Chancellor that limit what information faculty members can keep confidential. **Executive Order 1083 relates to reporting of child abuse** and **Executive Order 1096 relates to reporting of campus sexual assaults**. CSU faculty members are considered mandatory reporters. Once we are made aware of such incidents, we are required to report the incident to our Title IX officer on campus, regardless of whether the student wants the information reported.
+
+## **Student Health & Well-being:**
+
+Students experiencing emotional distress may seek services through [Counseling & Psychological Services](https://www.cpp.edu/caps/index.shtml). Additionally, there is the [Student Health & Wellbeing](https://www.cpp.edu/health/student-health-services.shtml) for other health issues. 
+
+-----------------------------------
+
+# Still in the Pandemic
+
+## Cameras
+
+If you feel comfortable please turn on your camera. However, I understand that you may be in a situation where you may not be able to have your camera on. I would like to see your faces, simply because I want to gauge understanding. This is much easier by seeing the looks on your faces.
+
+## Participation
+
+Please interrupt at any time if you do not understand anything...and I mean ANYTHING. This class includes the essentials for a lot of research and practical applications in both the social and biological sciences. It is important to understand as much as possible regarding statistics and research design that we will learn during this semester. Communication is key for this class. I will also offer office hours to discuss class assignments. **Please email me if the office hours do not work for you.**
+
+## Pandemic-related Accomodations
+
+We are still in a pandemic so please communicate with me if you are not able to meet the requirements of this class. While no late assignments will be accepted, accommodations due to pandemic-related issues will be honored. If there is no prior communication about not being able to meet the requirements for an assignment, a zero for that assignment will be assigned. 
+
+## Classes Will Be Recorded
+
+All classes will be recorded. Please email me if you have any concerns regarding the lecture being recorded to see if there are any accommodations that can be made.
+
+-----------------------------------
+
+# **Tenative Course Schedule**
+
+{{< bootstrap-table "table table-hover" >}}
+
+| **Week** | **Dates** | **Lecture Topics** | **Activity Topics** | **Readings** | **Assignments Post Date and Due Dates (@ 11:59pm)** |
+| :----------------------- | :-----------------------: | :-----------------------: | :-----------------------: | :----------------------- |  :----------------------- |
+| Week 1a | 01/24/22 | Review & Research Ideas | Introductions, Choosing Topics, Making Groups, and CITI Training  | Ch.1 & Ch.2 |  |
+| Week 1b | 01/26/22 | Review & Research Ideas | NA | Ch.1 & Ch.2 | **Submit CITI Training** |
+| Week 2a | 01/31/22 | Review & Research Ideas | Literature Review  | Ch.1 & Ch.2 |  |
+| Week 2b | 02/02/22 | Variable Measurement | NA | Ch.3 | **Submit Topic & Group** |
+| Week 3a | 02/07/22 | Variable Measurement | Theories, Research Questions, and Hypotheses | Ch.3  |  |
+| Week 3b | 02/09/22 | Ethics | NA | Ch.4 | **Submit articles on IV, DV, Theory; Submit research questions and hypotheses**  |
+| Week 4a | 02/14/22 | Participants & Sampling | Consent Forms | Ch.5 |  |
+| Week 4b | 02/16/22 | Participants & Sampling | NA | Ch.5 | **Submit consent form draft and SONA description** |
+| Week 5a | 02/21/22 | Strategies & Validity | Participant Recruitment & Assessment Risks | Ch.6 & Ch.7 |  |
+| Week 5b | 02/23/22 | Strategies & Validity | NA | Ch.6 & Ch.7 | **Submit how you'll recruit participants; Assess risks** |
+| Week 6a | 02/28/22 | Strategies & Validity | Find Measures | Ch.6 & Ch.7 |  |
+| Week 6b | 03/02/22 | Midterm | NA | Ch.1, 2, 3, 4, 5, 6, 7 | **Submit articles with measures of each construct** |
+| Week 7a | 03/07/22 | Experimental Designs | Creating Experimental Design | Ch.8 & Ch.9 |  |
+| Week 7b | 03/09/22 | Experimental Designs | NA | Ch.8 & Ch.9 | **Submit experimental design draft** |
+| Week 8a | 03/14/22 | Experimental Designs | Creating Survey | Ch.8 & Ch.9 |  |
+| Week 8b | 03/16/22 | Experimental Designs | NA | Ch.8 & Ch.9 | **Share link for survey draft**; *IRB Proposal Due* |
+| Week 9a | 03/21/22 | Factorial Designs | Ethical Considerations | Ch.11 |  |
+| Week 9b | 03/23/22 | Factorial Designs | NA | Ch.11 | *Survey Assignment Due; Submit survey link* |
+| Week 10a | 03/28/22 | Single-case Experimental Designs | Writing For Funding | Ch.14 | **Start Adapting IRB Proposal to Funding Paper; Start recruiting participants** |
+| Week 10b | 03/30/22 | Single-case Experimental Designs | NA | Ch.14 |  |
+| Week 11a | 04/04/22 | Quasi-Experimental Strategies | Writing For Funding | Ch.10  |  |
+| Week 11b | 04/06/22 | Quasi-Experimental Strategies | NA | Ch.10 |  |
+| Week 12a | 04/11/22 | Midterm | Writing Research Papers | Ch.8, 9, 10, 11, 14 | *Funding Assignment Due* |
+| Week 12b | 04/13/22 | Writing APA Research Paper | NA | Ch.16  |  |
+| Week 13a | 04/18/22 | Funding Paper Presentations | Statistics |  |  |
+| Week 13b | 04/20/22 | Funding Paper Presentations | NA |  | **Submit results for review** |
+| Week 14a | 04/25/22 | Descriptive Research Strategies | Writing Research Papers & Statistics | Ch.13 |  |
+| Week 14b | 04/27/22 | Statistical Evaluations | NA | Ch.15 |  |
+| Week 15a | 05/02/22 | Research Presentations | NA |  |  |
+| Week 15b | 05/04/22 | Research Presentations | NA |  |  |
+| Finals Week | 05/09/22 - 05/13/22 | Research Paper Due |  |  |  |
+
+{{< /bootstrap-table >}}
+

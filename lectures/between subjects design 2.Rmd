@@ -1,0 +1,269 @@
+---
+title: "Between-subjects Designs2"
+subtitle: "PSY 4433"
+author: "Jonathan A. Pedroza, PhD"
+institute: "Cal Poly Pomona"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(xaringanthemer)
+style_duo(primary_color = '#56B4E9', secondary_color = 'black')
+
+library(tidyverse)
+
+set.seed(2222022)
+data <- data.frame(milk_celeb1 = rnorm(n = 50,
+                                       m = 3.39,
+                                       sd = .82863),
+                   milk_celeb2 = rnorm(n = 50,
+                                       m = 2.70,
+                                       sd = 1.12938),
+                   fridge_celeb1 = rnorm(n = 50,
+                                         m = 3.32,
+                                         sd = .91339),
+                   fridge_celeb2 = rnorm(n = 50,
+                                         m = 3.36,
+                                         sd = .96384))
+
+data <- data %>% 
+  pivot_longer(everything(),
+               names_to = 'conditions',
+               values_to = 'condition_values')
+
+data <- data %>% 
+  separate(conditions, into = c('product_type', 'celebrity'), sep = '_') %>% 
+  mutate(product_type = case_when(product_type == 'milk' ~ 1,
+                                  product_type == 'fridge' ~ 2),
+         celebrity = case_when(celebrity == 'celeb1' ~ 1,
+                               celebrity == 'celeb2' ~ 2))
+
+data <- data %>% 
+  mutate(product_type = recode(product_type, '1' = 'milk',
+                               '2' = 'fridge'),
+         celebrity = recode(celebrity, '1' = 'Celeb 1',
+                            '2' = 'Celeb 2'),
+         celebrity = as.factor(celebrity),
+         product_type = as.factor(product_type))
+```
+
+# Analyses - Between-Subjects Designs
+
+.pull-left[
+![statistics](https://media.giphy.com/media/9ADoZQgs0tyww/giphy.gif)
+]
+
+.pull-right[
+![no clue what i'm doing](https://media.giphy.com/media/7QJJwxXLmno2tvFeYl/giphy.gif)
+]
+
+---
+
+# Group Project Analyses 
+
+- For your project, you'll have 
+  - two IVs
+    
+    + both IVs should have at least two conditions
+    
+    + one IV should be manipulated, other can another variable that literature states is important
+  
+  - continuous DV
+  
+  - 1 to 3 hypotheses
+  
+    + IV1 --> DV main effect
+    
+    + IV2 --> DV main effect
+    
+    + IV1*IV2 --> DV Interaction
+ 
+---
+
+# Example
+
+```{r, echo = FALSE, eval = TRUE}
+data.frame(groups = c('treatment', 'control'),
+  male_groups = c('male_treatment', 'male_control'),
+           female_groups = c('female_treatment', 'female_control'))
+```
+
+---
+
+# Two-Group Mean Difference
+
+- the simplest experiment is when you have two groups that you are comparing
+  - we will take this one step further in your project
+
+- the design is often called a **single-factor two-group design** or a **two-group design**
+
+- advantage is its simplicity
+  - comparing the means of two different groups (Control and Treatment Groups)
+
+- disadvantage is the limited amount of information you have and get from the comparison
+  - your treatment group is better at DV than control group
+  - if you have more than 2 groups, then this is not very helpful because you would have to compare each group
+
+--
+
+  - problematic because of false positives
+  
+---
+
+# Two-Group Mean Difference
+
+- can use either a independent-samples t-test or One-way ANOVA
+
+```{r, echo = FALSE, eval = TRUE}
+t.test(condition_values ~ product_type, data = data, var.equal = TRUE)
+```
+
+---
+
+```{r, echo = FALSE, eval = TRUE}
+data %>% 
+  group_by(product_type) %>% 
+  summarize(n = n(),
+            mean_value = mean(condition_values)) %>% 
+  ggplot(aes(product_type, mean_value)) + 
+  geom_col(color = 'dodgerblue', fill = 'dodgerblue')
+```
+
+---
+
+# Comparing Means for More Than Two Groups
+
+- comparing more than two groups
+  - **single-factor multiple-group design** 
+  
+- uses only a one-way ANOVA
+  - determine differences in means of the outcome for each group/condition
+
+- problem is whether you have a hypothesized group that will do differently than a group specifically (control)
+  - or you just test everything (this is bad)
+  
+---
+
+# Comparing Means for More Than Two Groups
+
+```{r, echo = FALSE, eval = TRUE}
+aov_find <- aov(mpg ~ as.factor(cyl), data = mtcars)
+summary(aov_find)
+
+```
+
+---
+
+```{r, echo = FALSE, eval = TRUE}
+car::Anova(aov_find, type = 'II')
+car::Anova(aov_find, type = 'III')
+```
+
+
+---
+
+```{r, echo = FALSE, eval = TRUE}
+TukeyHSD(aov_find)
+```
+
+---
+
+```{r, echo = FALSE, eval = TRUE}
+pairwise.t.test(mtcars$mpg,
+                as.factor(mtcars$cyl),
+                p.adj = 'bonf')
+```
+
+---
+
+```{r, echo = FALSE, eval = TRUE}
+summary(lm(mpg ~ as.factor(cyl), data = mtcars))
+```
+
+---
+
+```{r, echo = FALSE, eval = TRUE}
+ggplot(mtcars, aes(as.factor(cyl), mpg)) + 
+  geom_boxplot(aes(fill = as.factor(cyl)))
+```
+
+---
+
+# Comparing Proportions for Two+ Groups
+
+- if your DV is nominal or ordinal (which is won't be), then you would look at the proportions within each cell 
+  - cannot use t-test or ANOVA for this
+  
+- use chi-square tests of independence
+  - non-parametric test
+  
+- JP Note: I rarely use this, but it can be helpful for certain scenarios (check the book)
+
+---
+
+# Comparing the Means for Groups Based on Another Variable
+
+```{r, eval = TRUE, echo = FALSE}
+ancova_find <- lm(condition_values ~ product_type + celebrity, data = data)
+summary(ancova_find)
+
+```
+
+---
+
+```{r, eval = TRUE, echo = FALSE}
+summary(lm(condition_values ~ product_type*celebrity, data = data))
+```
+
+---
+
+```{r, eval = TRUE, echo = FALSE}
+two_way <- aov(condition_values ~ product_type*celebrity, data = data)
+
+summary(two_way)
+```
+
+---
+
+```{r, eval = TRUE, echo = FALSE}
+car::Anova(two_way, type = 'II')
+car::Anova(two_way, type = 'III')
+```
+
+
+---
+
+```{r, eval = TRUE, echo = FALSE}
+data %>% 
+  group_by(product_type) %>% 
+  summarize(n = n(),
+            mean_value = mean(condition_values)) %>% 
+  ggplot(aes(product_type, mean_value)) + 
+  geom_col(aes(fill = product_type)) 
+```
+
+---
+
+```{r, eval = TRUE, echo = FALSE}
+data %>% 
+  group_by(product_type, celebrity) %>% 
+  summarize(n = n(),
+            mean_value = mean(condition_values)) %>% 
+  ungroup() %>% 
+  ggplot(aes(product_type, mean_value, group = celebrity)) + 
+  geom_point(aes(color = celebrity)) + 
+  geom_line(aes(color = celebrity)) +
+  theme_light()
+```
+

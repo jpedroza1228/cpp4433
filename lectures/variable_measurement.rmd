@@ -1,0 +1,305 @@
+---
+title: "Variable Measurement"
+subtitle: "PSY 4433"
+author: "Jonathan A. Pedroza, PhD"
+institute: "Cal Poly Pomona"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(xaringanthemer)
+style_duo(primary_color = '#56B4E9', secondary_color = 'black')
+```
+
+# Agenda
+
+- Variable Measurements
+- Measurement Modalities
+- Other Aspects of Measurement
+
+---
+
+# Measurement Scales
+
+- **Scales of measurement** is the procedure of classifying individuals into categories*
+  - **categorical** variables are those that can be put into groups/categories/conditions
+  - **continuous** variables are those that provide a unique value for each participant; can have a decimal
+  
+![measure simpsons](https://media.giphy.com/media/3orifhEUbL8iMi6RUI/giphy.gif)
+
+---
+
+# Categorical Measurements
+
+- **Binary variables**
+  - there are only two categories (sex)
+
+- **Nominal variables**
+  - categorize into groups; categories are not ordered (race/ethnicity groups)
+  - can be binary and nominal
+
+- **Ordinal variables**
+  - ordered categories
+  - categories indicate rank order (race order)
+
+---
+
+# Continuous Variables
+
+- **Interval variables**
+  - equal intervals on the variable represent equal differences in measurement
+  - zero is not an absolute zero
+
+- **Ratio variables**
+  - similar to interval
+  - true zero (zero is the smallest number)
+
+---
+
+# Examples
+
+- Are the following examples categorical (nominal/ordinal) or continuous(interval, ratio)
+
+- Money
+- Grades
+- Temperature
+- Time spent online
+
+---
+
+# Examples
+
+- Money
+  - Cash
+  - Bank Account(s)
+- Grades
+  - (A, B, C, D, F)
+  - Exact Grades
+  - Grade Brackets (100%-90%, 89%-80%, 79%-70%, etc.)
+- Temperature
+  - Fahrenheit
+  - Celcius
+  - Kelvin
+- Time spent online
+  - Hours/Minutes
+  - Self-report
+
+---
+
+# Dealing with Equivocal Measurements
+
+- We deal with numbers in weird ways sometimes
+  - Likert Scale 1 (Strongly Agree) - 5 (Strongly Disagree)
+  - Is this nominal? Ordinal? Interval?
+
+- JP Note/Book: If using a single variable, then treat it on a nominal/ordinal scale
+  - Unless, there are 10 or more categories (1-10 scale) then you can treat it as an interval scale
+
+---
+
+# Measurement Modalities
+
+- Different types of modalities when collecting data
+  - for this class, we will primarily be focused on self-reported data
+
+![simpsons survey](https://media.giphy.com/media/3orieKnyrwJz8oylck/giphy.gif)
+
+---
+
+# Self-Report
+
+- common measurement modality in social sciences
+  - **self report** is when participants report their own answers for surveys/questionnaires/forms/etc.
+
+- advantage is that it is the most direct way of collecting data
+  - offers good face validity
+  - participants may answer differently to show a better image of themselves
+
+---
+
+# Physiological 
+
+- **physiological** measures collect data from physiological manifestations of a construct
+  - stress --> increased heart rate or sweat (galvanic skin response[GSR])
+  - cognitive processing --> frontal lobe of brain (fMRI)
+
+- commons measures
+  - GSR
+  - fMRI/MRI (functional tasks/still images of the brain)
+  - PET (brain function/cancer)
+  - EEG (sleep studies)
+  
+- advantage is that these measures are objective
+  
+---
+
+# Physiological 
+
+- disadvantage is that these require training, equipment
+  - can also have subjective interpretation parts
+  - parts of the brain --> what it means
+
+- are they actually measuring the construct
+  - sweating may not be from the experiment manipulation
+  - could be from being connected to a weird device
+
+---
+
+# Behavioral
+
+- **behavioral** measures can be both based on observation or through more structured manners to test the construct
+  - behavioral test to measure smartphone use by seeing how many times participants unlock their phone
+  - measuring disruptive behavior in a classroom
+
+- are they actually measuring the core construct or are they situational
+  - are they compulsive in constantly unlocking their phones
+  - are disruptive kids always disruptive or just having a bad day
+
+- best to measure a cluster of behaviors rather than one sole indicator
+
+---
+
+# Other Aspects of Measurement
+
+- other than knowing how to measure your study/experiment constructs, you'll want to know
+  - do you need more than one measure of each construct
+  - will there be enough variation in each measure
+  - how can you avoid unwanted noise in your data
+  
+---
+
+# Multiple Measures
+
+.pull-left[
+- if you wanted to test validity of a measure
+  - you would use at least two measures of the same construct
+
+- a better alternative would be to collect data on a measure through different modalities
+  - the measures may not behave in the same way
+  - statistics with both measures can result in different findings
+]
+
+.pull-right[
+![confused always sunny](https://media.giphy.com/media/hWe0jXcgkrWLdKASeI/giphy.gif)
+]
+
+---
+
+# Sensitivity & Range Effects
+
+- if you expect small effects in your study, then you should have a measure that is **sensitive** enough to detect that effect
+
+- one specific sensitivity issue is when scores group together because the task is either too hard or too easy
+  - Ex: giving a spelling test, with grade school words
+  - if your experiment is to help promote study tips, it could be useful but you won't see a difference
+  
+- when there is no room for improvement/change, there is a **range effect**
+
+---
+
+# Range Effects
+
+- there are two instances of range effects
+  - **ceiling effects**, which are when participants are already scoring high and cannot score any higher
+  - **floor effects**, which are when participants are scoring too low and there is no way to score lower
+  
+- this is a difficult concept because unless you test this beforehand, you won't really know how easy or hard your task is
+
+- JP Note: I gave a high school rated math exam and experienced a floor effect from CPP students from all grade levels
+
+---
+
+# Artifacts: Experimenter Bias & Participant Reactivity
+
+- **artifacts** are external factors (not part of the experiment) that can influence your experiment
+  - Ex: explaining the point of the study and someone walks into the study setting
+  
+- **experimenter bias** is when someone administering the study/experiment has some sort of effect on participants' responses/answers
+  - could be part of the study (manipulating how you administer experiment materials) or an artifact
+  - could be done intentionally or unintentionally
+  
+- Examples from the book:
+  - tone of voice
+  - facial expressions
+  - body language
+  
+---
+
+# Experimenter Bias
+
+.pull-left[
+![stop that](https://media.giphy.com/media/dfNYKfFIbI1a0/giphy.gif)
+]
+
+.pull-right[
+- one way to limit bias is to standardize the experiment
+  - have a script
+
+- "Blind" Experiments
+  - **single-blind** experiments are when those administering experiments do not know the design of the study
+  - **double-blind** experiments are better because both administers and participants do not know the design of the study
+  
+- experiments where participants do not know the design/hypothesis(es) of the study are not "blind"
+]
+
+---
+
+# Demand Characteristics
+
+- because we are using human participants, sometimes participants try to act accordingly to a study and behave in their best manner
+
+- **demand characteristics** are cues of the study that suggest to participants what the purpose(s)/hypothesis(es) are
+  - influence participants to react a certain way
+
+- participant **reactivity** is when participants modify their behavior because they know they are being watched or know what is being measured
+  - often a problem in a controlled **laboratory** setting
+  - **field** research allows a more natural environment
+---
+
+# Different Roles
+
+- **good subject role**
+  - know the purpose/hypothesis and want to help the researcher by supporting the hypothesis
+
+- **negativistic subject role**
+  - know the purpose/hypothesis and want to act contrary to the hypothesis
+
+- **apprehensive subject role**
+  - try to answer in a way that is socially desirable, instead of truthfully
+
+- **faithful subject role**
+  - follow instructions and avoid trying to find the purpose/hypothesis
+  - either know how science works and don't want to disrupt the study OR they don't care and want compensation (SONA credits or $)
+
+---
+
+# Different Roles
+
+.pull-left[
+![breakfast club don't care](https://media.giphy.com/media/4Ra6jnDDOVdNS/giphy.gif)
+]
+
+.pull-right[
+![seinfeld rules](https://media.giphy.com/media/iB4PoTVka0Xnul7UaC/giphy.gif)
+]
+
+---
+
+# Selecting Measurement Procedure
+
+- think about how you should measure each construct
+  - validity & reliability
+  - feasibility
+  - what is the field doing/using?
+  - if creating something, how will you test to make sure there are no range effects?

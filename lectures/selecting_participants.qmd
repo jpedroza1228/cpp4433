@@ -1,0 +1,289 @@
+---
+title: "Participants Sampling"
+format: beamer
+editor: visual
+---
+
+## Selecting Participants
+
+-   you want your sample to be representative of your population
+
+    -   Ex: College population
+
+    -   What characteristics of participants would be needed to be representative of a college student population?
+
+## Populations & Samples
+
+-   a **population** is the entire set of individuals of interest
+
+    -   if you are interested in CPP students, your population is CPP students only
+
+    -   this does not include faculty or admin, if it did, it would only be a sample
+
+-   a **sample** is then a set of individuals from a population of interest
+
+    -   it should represent the population
+
+    -   if we are interested in everyone from CPP but sample students, is this representative?
+
+## Populations & Samples
+
+-   a **target population** is a specific population that a researcher may be interested in
+
+    -   minors --> adolescents who engage in substances
+
+-   an **accessible population** is the population that researchers are able to recruit from
+
+    -   adolescents who engage in substances from all community centers in the city of Pomona
+
+## Representative Samples
+
+-   **representativeness** of a sample is the extent that your sample actually represents a population of interest
+
+-   **representative sample** is what every researcher desires
+
+    -   the students that you recruit for your projects should be representative of the student body at CPP
+
+    -   is this actually going to happen?
+
+## Representative Samples
+
+-   **biased sample** is a sample that does not represent the population of interest
+
+    -   If you want responses from everyone at CPP, then you have to get a sample that is representative of every group on campus
+
+        -   in theory, this may be a population that is not accessible
+
+        -   this is why it is important to report the demographics of your sample
+
+        -   although you're sampling from SONA, are all of your participants Psychology students?
+
+        -   the more demographic questions you ask the better understanding you'll have of your sample
+
+## Representative Samples
+
+-   **selection bias** or also referred to as **sampling bias**
+
+    -   you all will fall victim to selection bias since you can only select certain students
+
+    -   since you are using convenience sampling, you will not get a sample that is generalizable, even to CPP students
+
+        -   Why is that?
+
+-   **law of large numbers** is the principle that once you have a large enough sample, you are more likely to have a sample that is representative of the population of interest
+
+    -   not always the case
+
+        -   5000 adult participants from Southern California may *barely* be representative of the state of California
+
+## Sampling Basics
+
+-   **sampling** is the process of selecting participants
+
+    -   there are several different ways of choosing participants
+
+-   s**ampling methods** (sampling techniques or sampling procedures) can be broken down into probability sampling and nonprobability sampling techniques
+
+## Sampling Basics
+
+-   **probability sampling**, the ***odds*** of selecting a single participant are known and can be calculated
+
+    -   instead of odds, the likelihood of being picked (better language)
+
+    -   you have the size of the population to calculate the probability of being chosen
+
+    -   each participant should have an equal amount of being chosen
+
+    -   when a group of individuals are assigned the same probability, the selection must be unbiased and must be from a **random process**
+
+## Sampling Basics
+
+-   **nonprobability sampling** is the likelihood of selecting a participant are not known because you don't know the size of the population to get a probability calculation
+
+    -   these sampling techniques are easier
+
+## Importance of Sampling
+
+-   1936 Election Results
+
+    -   Alfred Landon vs Franklin D. Roosevelt
+
+-   Predictions were 57% to 43% in favor of Landon
+
+    -   reality was that FDR won 62% to 38%
+
+-   Does anyone know why there was so much sampling error?
+
+## Importance of Sampling
+
+-   selection bias
+
+    -   sampling recruitment used potentially easier options to recruit
+
+        -   telephone directories, club membership lists, magazine subscriber lists
+
+    -   during the great depression
+
+        -   excluded working-class income brackets
+
+-   nonresponse bias
+
+    -   those that respond to surveys are different from the actual population
+
+        -   there are those that are not willing to take part in the survey
+
+        -   example of low response rates
+
+## Probability Sampling Methods
+
+## Simple Random Sampling
+
+-   **simple random sampling** is the method of choosing a participant where everyone has an equal chance of being chosen
+
+-   to conduct simple random sampling, you need to
+
+    -   clearly define a population of interest
+
+    -   list all members of population
+
+    -   use random process to select participants
+
+-   An example would be to have a coin toss where every individual has an equal chance of being selected for a study
+
+    -   random number generator for participants
+
+## Simple Random Sampling
+
+-   Two principal methods of random sampling
+
+    -   **sampling with replacement**
+
+        -   you sample participants and then they return to the population; can be in the sample more than once
+
+    -   **sampling without replacement**
+
+        -   once a participant is sampled, they are removed from the population
+
+-   because populations tend to be large, either will result in the same theoretical sample
+
+    -   the chance of choosing the same participant again out of thousands would be rare
+
+## Systematic Sampling
+
+-   **systematic sampling** is similar to simple random sampling
+    -   you randomize participants, make a list, and choose participants systematically
+
+        -   from your list, you choose the 7th participant
+
+        -   can choose a random starting point also
+
+## Stratified Random Sampling
+
+-   **stratified random sampling** takes simple random sampling a step further
+    -   when you want to have a representative sample, you may want a sample that looks like demographics of your population of interest
+
+    -   using this technique, you separate your complete population into smaller subgroups
+
+    -   conduct simple random sampling with these smaller subgroups
+
+        -   all CPP students --> equal representation from all majors
+
+        -   randomly sample from each major
+
+    -   every group will be represented
+
+    -   can become an issue when you may be over-representing some groups
+
+## Proportionate Stratified Random Sampling
+
+-   **proportionate stratified random sampling** still separates into smaller groups
+
+    -   get the proportion of the full population
+
+        -   adjust for the proportions of your specific subgroups to more accurately represent the population
+
+    -   also referred to as **proportionate random sampling**
+
+## Cluster Sampling
+
+-   **cluster sampling** is using the clustering of individuals in a population to preexisting groups
+    -   you are interested in participants from student organizations
+
+        -   you then can randomly sample from those clusters
+
+    -   students in classrooms
+
+    -   students in schools
+
+    -   students from different districts
+-   quick and easy way to obtain a large sample
+-   measurement can be done in groups, if you are testing students in classrooms, you can then provide a survey or conduct an experiment using the whole class rather than one-on-one
+-   issue of independence between scores
+    -   are students within their own classrooms all that different from one another
+
+# Nonprobability Sampling Methods
+
+## Convenience Sampling
+
+-   **convenience sampling** is exactly what it sounds like
+    -   you're trying to get any participant that is willing to take your study
+
+        -   based on availability
+
+        -   not very representative and potentially biased because those that participate may be more likely to take a survey at any time
+-   used often
+-   be clear on what your sample looks like and note the limitations of your sampling
+    -   for your projects, you'll state you have mainly Psychology students from selected classes
+
+## Quota Sampling
+
+-   **quota sampling** is a nonprobability sampling technique similar to that of stratified sampling
+    -   once you reach a quota of a subgroup, you start putting more effort into recruiting for other subgroups
+
+    -   Ex: age representation at CPP
+
+        -   you may start looking for any potential participant
+
+        -   once you have a sufficient amount of 18-25 year olds
+
+        -   you start to look for participants that are 26-30, and 31-40, and 40+ until you get the number of participants you want
+
+    -   you can also state that because you have a college sample, you'll most likely get students representative of a college population
+
+        -   majority 18-25 and the minority of 26+
+
+## Snowball Sampling
+
+-   convenience sampling with additional steps
+
+    -   you get your participants that want to participate
+
+        -   then you ask them to recruit 2-3 participants
+
+        -   or special characteristics of who they recruit (e.g., parents, partners, etc.)
+
+## Sample Questions
+
+-   age
+
+-   sex
+
+-   major
+
+-   class standing
+
+-   sexual orientation (if interested in this)
+
+-   race/ethnicity
+
+-   languages known
+
+-   specifics relating to your study
+
+    -   generational status
+
+    -   birthplace of parents
+
+    -   country of origin
+
+    -   first language learned

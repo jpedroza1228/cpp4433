@@ -1,0 +1,28 @@
+---
+title: "Statistical Evaluation of Data"
+author: "Jonathan A. Pedroza, PhD"
+format: beamer
+editor: visual
+---
+
+## Role of Statistics in Research Process
+
+## Descriptive Statistics
+
+## Using Graphs to Compare Groups of Scores
+
+## Regression
+
+## Inferential Statistics
+
+## Hypothesis Tests
+
+## Reporting Results from a Hypothesis Test
+
+## Errors in Hypothesis Testing
+
+## Factors Influencing Outcome of Hypothesis Test
+
+## The Right Statistic for You
+
+## Special Statistics for Research

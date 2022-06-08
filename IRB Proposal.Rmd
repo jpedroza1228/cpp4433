@@ -3,196 +3,289 @@ title: "IRB Proposal"
 subtitle: "PSY 4433-05/4433A-10/11: Experimental Psychology"
 author: "Jonathan A. Pedroza, PhD"
 date: "`r Sys.Date()`"
-output:
-  prettydoc::html_pretty:
-    theme: cayman
-    highlight: github
+output: word_document
 ---
 
-```{css my-header-colors, echo = FALSE}
-.page-header {
-  color: #FAE9A0;
-  text-align: center;
-  background-color: #005C55;
-  background-image: linear-gradient(120deg, #7DA37B, #005C55);
-}
-
-a {
-  color: #F1C40F; #color of linked inline code
-  font-weight: bold;
-  text-decoration: none;
-}
-  a:hover {
-    text-decoration: underline;
-    }
-
-.main-content {
-  word-wrap: break-word; }
-  .main-content :first-child {
-    margin-top: 0; }
-  @media screen and (min-width: 64em) {
-    .main-content {
-      max-width: 64rem;
-      padding: 2rem 6rem;
-      margin: 0 auto;
-      font-size: 1.1rem; } }
-  @media screen and (min-width: 42em) and (max-width: 64em) {
-    .main-content {
-      padding: 2rem 4rem;
-      font-size: 1.1rem; } }
-  @media screen and (max-width: 42em) {
-    .main-content {
-      padding: 2rem 1rem;
-      font-size: 1rem; } }
-  .main-content img {
-    max-width: 100%; }
-  .main-content h1,
-  .main-content h2,
-  .main-content h3,
-  .main-content h4,
-  .main-content h5,
-  .main-content h6 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    font-weight: normal;
-    color: #3F7F68; } # header color
-  .main-content p {
-    margin-bottom: 1em; }
-  .main-content code {
-    padding: 2px 4px;
-    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-    font-size: 0.9rem;
-    color: #005C55; #package color/whatever is in `` brackets
-    background-color: #7DA37B; #background color of ``brackets
-    border-radius: 0.3rem; }
-  .main-content pre {
-    padding: 0.8rem;
-    margin-top: 0;
-    margin-bottom: 1rem;
-    font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
-    color: #567482;
-    word-wrap: normal;
-    background-color: #f3f6fa; #background color of code chunks
-    border: solid 1px #005C55; #this is the border of the r code chunks
-    border-radius: 0.3rem; }
-    .main-content pre > code {
-      padding: 0;
-      margin: 0;
-      font-size: 0.9rem;
-      color: #5D6D7E;
-      word-break: normal;
-      white-space: pre;
-      background: transparent;
-      border: 0; }
-  .main-content .highlight {
-    margin-bottom: 1rem; }
-    .main-content .highlight pre {
-      margin-bottom: 0;
-      word-break: normal; }
-  .main-content .highlight pre,
-  .main-content pre {
-    padding: 0.8rem;
-    overflow: auto;
-    font-size: 0.9rem;
-    line-height: 1.45;
-    border-radius: 0.3rem;
-    -webkit-overflow-scrolling: touch; }
-  .main-content pre code,
-  .main-content pre tt {
-    display: inline;
-    max-width: initial;
-    padding: 0;
-    margin: 0;
-    overflow: initial;
-    line-height: inherit;
-    word-wrap: normal;
-    background-color: transparent;
-    border: 0; }
-    .main-content pre code:before, .main-content pre code:after,
-    .main-content pre tt:before,
-    .main-content pre tt:after {
-      content: normal; }
-  .main-content ul,
-  .main-content ol {
-    margin-top: 0; }
-  .main-content blockquote {
-    padding: 0 1rem;
-    margin-left: 0;
-    color: #819198;
-    border-left: 0.3rem solid #dce6f0; }
-    .main-content blockquote > :first-child {
-      margin-top: 0; }
-    .main-content blockquote > :last-child {
-      margin-bottom: 0; }
-  .main-content table {
-    display: block;
-    width: 100%;
-    overflow: auto;
-    word-break: normal;
-    word-break: keep-all;
-    -webkit-overflow-scrolling: touch; }
-    .main-content table th {
-      font-weight: bold; }
-    .main-content table th,
-    .main-content table td {
-      padding: 0.5rem 1rem;
-      border: 1px solid #e9ebec; }
-  .main-content dl {
-    padding: 0; }
-    .main-content dl dt {
-      padding: 0;
-      margin-top: 1rem;
-      font-size: 1rem;
-      font-weight: bold; }
-    .main-content dl dd {
-      padding: 0;
-      margin-bottom: 1rem; }
-  .main-content hr {
-    height: 2px;
-    padding: 0;
-    margin: 1rem 0;
-    background-color: #5E9171; #line to break up sections
-    border: 0;
-}
-```
-
-# Rubric
+# Descriptions of Each Section/Rubric
 
 **NOTE** This is not a formal IRB Proposal. This is just an example of a writing assignment you may have to do in future endeavors. 
 
 ## Total Points (50 points)
 
+A. Research Focus - 10 points
 
+  - Full Credit: provide a complete rational argument for your study and sufficient/appropriate literature
+  - Half Points Deducted: missing arguments for your study; lacking literature or irrelevant literature
+  - All Points Deducted: no argument for your study; no literature or completely irrelevant literature
+  
+B. Methods - 10 points
+
+  - Full Credit: complete description of your experiment; someone outside of Psychology could understand the design
+  - Half Points Deducted: confusing/not clear description of experiment; leaves me having several questions
+  - All Points Deducted: design is not an experiment/quasi-experiment; leaves me completely confused
+  
+C. Participants & Recruitment - 5 points
+
+  - Full Credit: complete description of who your participants are, how many you think you'll get, recruitment, criteria
+  - Half Points Deducted: issues with description of participants, recruitment, sample size
+  - All Points Deducted: no description of participants, recruitment, sample size, criteria
+  
+D. Data Collection - 10 points
+
+  - Full Credit: complete description of data you will collect, your measures, information about your survey
+  - Half Points Deducted: lacking information about your the data you'll collect, your measures, or your survey
+  - All Points Deducted: No information about what data you'll collect, your measures, and your survey
+  
+E. Data Security - 5 points
+
+  - Full Credit: Complete description on how data will be kept and used
+  - Half Points Deducted: Inaccurate or incomplete descriptions of how data will be kept and used
+  - All Points Deducted: Missing descriptions of data uses and security
+  
+F. Risks - 5 points
+
+  - Full Credit: Thorough explanation of risks and how to protect participants
+  - Half Points Deducted: Missing potential risks and how to protect participants
+  - All Points Deducted: No mention of risks and how to protect participants
+  
+G. Consent Forms - 5 points
+
+  - Full Credit: complete every section on the checklist
+  - Half Points Deducted: missing some sections of the checklist
+  - All Points Deducted: missing crucial information in your consent form
 
 ### Research Focus (10 points)
 
+A. Purpose of the Study
+
+This section consists of the `purpose` for your study (What are you interested in?), as well as the `aims` of your study (What is the relationship you are interested in?), your `independent variable(s)`, your `dependent variable`, and your `hypothesis` regarding that relationship. If you are creating a factorial design for your project, you'll most likely have two aims and two to three hypotheses for your study. You should make an argument for why your study is important to the field of literature. You will state why this study needs to be conducted.
+
+*From the IRB Protocol Application* Why are you conducting this study?  What are the goal(s), objective(s) and outcome(s)?  What hypothesis or hypotheses are you testing or what are the research questions?  Explain the rationale and impetus for your research project.  Provide enough detail such that:  a) the IRB member(s) reviewing your protocol will understand your research plan and b) it supports a judgment of the risks and benefits in order to approve the “use” of the research participants.
+
+B. Relevance
+
+This section is focused on the literature that you have been gathering. You should be including the articles that you are citing here. In Addition to those articles, you will want an opening paragraph on why whatever you are interested in is a problem. This first paragraph tends to incorporate some sort of statistic from a credible secondary source (e.g., health organization). 
+
+*From the IRB Protocol Application* State specifically the relationship of your proposed research to other, previous scientific and/or scholarly investigations in the field or to existing best practices.  What literature is related to your research? On what are you basing your own work, pertaining to the use of human subjects?  What are you doing that builds on existing research findings/best practices? What work has come before and what have you learned from it to inform your own methods and questions? Provide full citations (APA or MLA reference styles are good).
 
 
 ### Methods (10 points)
 
+A. Summarize the overall *overall* design of your proposed study
 
+This section should provide a complete description of your research design. Since all of you will be creating some type of experiment, you'll walk the reader through on what you will be doing exactly. You should write about how you will select participants? You'll write about what condition(s) they will be in? You'll write about how you will administer the conditions of your study. If groups will be randomly chosen and how they will be randomly put in groups. How will participants get the stimuli? 
+
+*From the IRB Protocol Application* Will you use an experimental, quasi-experimental, or correlational design?  What are the independent variables, interventions, treatments, etc.?
+
+B. Provide a step-by-step outline of the activities in this study.
+
+This section will include a timeline for what you plan to do in your study. 
+
+*From the IRB Protocol Application* What events will occur and in what order?  How will the information about the study be presented to the participants?  Please note you are asked to describe the specific measures and data to be collected in Section 5 below. 
 
 ### Participants and Their Recruitment (5 points)
 
+A. Briefly describe the characteristics of the subject group(s).
 
+This will be fairly simple because all of your participants will be students. You can then go into specifics if you only want a subsection of students.
 
-### Vulnerable Participants
+*From the IRB Protocol Application* Who in a population, from which you will sample, are you trying to study?  What are you looking for in your subjects?  What will you use to qualify them (e.g., age, gender, being a student or faculty member, being able to do a specific task, belonging to a certain group, etc.)?
 
+B. How many subjects/participants will be involved in the research project? How did you determine your sample size?
+
+This is a rough determination of students involved in your study. A good research project would include an a priori power analysis. I will teach you all how to do this but I won't require it for your study. 
+
+*From the IRB Protocol Application* It is acceptable to have a range, but it must be a close approximation.  For projects with surveys (e.g., electronic, phone, written, door-to-door canvassing), indicate the number to be recruited, the anticipated response rate, and thus the estimated final number of actual participants.
+
+C. What are the benefits, if any, to the subjects/participants from their participation in the study?
+
+This will be about what benefits your study wil provide. Even if this is just educational, you will be including benefits in your proposal. 
+
+*From the IRB Protocol Application* Most studies have some kind of benefit, even if they are purely educational.  Will the subjects personally gain something through the research by being a subject?  This information – summarized – must be included in the consent (and/or assent) form as well.  If there is no direct benefit to the subject, this needs to be stated here.
+
+D. Will participants be compensated? Will they be given something? If yes, in what way (token of appreciation, money, gift, gift card, course credit, food, lottery ticket, etc.)?
+
+Compensation for most of you will be either extra credit or class credit. 
+
+*From the IRB Protocol Application* This information – summarized – must be included in the consent (and/or assent) form as well.  If there is no compensation, then state that clearly.
+
+E. How will you gather/recruit your potential subjects/participants to participate in the study? Where will you recruit them? (For example, will you recruit subjects using emails or fliers?) Include any recruitment materials you will be using with your application.
+
+How will you recruit participants? For this, most will be from the SONA system.  
+
+*From the IRB Protocol Application* As applicable, attach copies of flyers, e-mail or blog text, advertisements, etc., to be used for the recruitment of subjects.  Review by the IRB is necessary for approval of your protocol.  Include the statement as follows:  The Cal Poly Pomona Institutional Review Board has reviewed and approved for conduct this research involving human subjects under protocol YY - #### (meaning year and sequence number).  Will translation of materials be necessary to other languages or to a different reading and comprehension level for recruiting purposes?  Consider that children often need simplified language.  Studies show that the average adult reads at a 5th to 8th grade level.
+
+F. Describe your procedures for the recruitment of a representative sample of the population. Is your recruitment based upon race, ethnicity, gender, health status, sex, or other characteristic?
+
+If you are interested only in a specific group, you'll want to clarify anything in this section. Maybe you only want Female participants; then you would make it clear why here. 
+
+*From the IRB Protocol Application* If this is not the case, discuss the reasons for not having such a balanced sample (such as, the research is focused on a certain subject group or it’s a case study).
 
 
 ### Data Collection and Procedures (10 points)
 
+*From the IRB Protocol Application* Collection methodologies include, but are not limited to:  surveys, interviews, focus groups, oral histories, participant observation, observations of public behavior, research in public schools, and the analysis of existing data.  Data include:  survey sheets and questionnaires, biological samples, audio and video tapes, transcripts of verbal communication, photographs, paper and electronic records, previously collected (existing) information, etc.  Personal and private data deemed by the IRB to be a risk to subjects if revealed include:  gender, income, number of children, age, religion, ethnicity, e-mail addresses, and more.  Even when labeled as demographic data, it is still personal and private and could potentially identify an individual.  This is not to say such data should not be collected, but mechanisms must be described in this protocol to protect the interests of the subjects should they be (somehow) identified.
 
+The HIPAA Privacy Rule regulations [45 CFR 164.514(b)] list specific elements that are considered to be personal identifiers.  These include:  name and initials; street address, city, county, precinct, zip code, or equivalent geocodes; elements of dates (except year) directly related to an individual (date of birth, admission date, discharge date, date of death); elements of date including year for persons 90 or older; telephone and/or fax number; e-mail address; social security number; medical record or health plan identification number; account number; certificate and license number; vehicle identifier and serial number including license plate number; device identifier and serial number; web address (URL), internet IP address; biometric identifier including finger and voice print, full face photographic image and comparable image; other unique identifying number, characteristic, or code.
+
+
+A. List the data that you will collect from the subjects/participants.
+
+Include any data you will be gathering. This could also include fake (deceptive) data and demographic information. Also state whether it will be self-report, physiological, etc.
+
+*From the IRB Protocol Application* What information (the variables) are you obtaining from the participants?  In what format will you collect the data?
+
+B. Describe each of your study's measures, data collection tools/apparatus, and data collection procedures
+
+You'll talk about incorporation of videos, self-report measures.You'll also want to talk about how participants will receive their consent forms and other information. 
+
+*From the IRB Protocol Application* Describe in detail all procedures to be done with human subjects.  What types of test(s) will you perform on or with the subjects?  How will you carry them out?
+
+C. If applicable, have you submitted a copy of the survey or questionnaire to the IRB? A copy (actual hard copy or PDF) of the survey should be provided for electronic surveys.
+
+You'll be sending me a link of your survey. 
+
+*From the IRB Protocol Application* If using a published survey with a copyright, do you need and have you provided permission to use it?  If any changes are made to the survey after approval, the IRB must be notified.
+
+D. If using a survey, will it be conducted online? Provide the URL for your electronic survey.
+
+*From the IRB Protocol Application* This would include SurveyMonkey or other professional internet-based data collection surveys.  Your survey will be tested during IRB review; so discard those data before ‘going live.’
+
+E. Will you use any third party online websites to collect data?
+
+Will you be using outside websites to collect data? Are you collecting data from participants from social media?
+
+*From the IRB Protocol Application* If so, which websites will be utilized? This would include any social media websites where you post your survey link for potential subjects to access. For example, if you post a SurveyMonkey link to Facebook, your ability to control what information is exchanged over the internet could vary and be limited.  What steps will you take to insure the privacy and security of data you collect online?  How might you prevent someone under the age of 18 participating in a study designed for adults?
+
+F. What is the timeline for your research?
+
+*From the IRB Protocol Application* When do you plan to conduct your study?  Provide approximate beginning and ending dates.  If there are multiple time periods, indicate the dates for each period.
+
+G. Where will your research be conducted? What kind of authorization or permissions do you need? Will the research take place in another country? The IRB must receive authorization/permission verification prior to the approval of your protocol.
+
+*From the IRB Protocol Application* Will you be conducting any experiments in a lab or classroom or collecting data in the field?  The IRB needs evidence that you are permitted to conduct the research in other venues for the protection of you, your subjects, and institutions.  For example, a signed letter or email authorizing a study at your work or in a business, or from a school principal or school board, or to use the CPP student health center will be required for protocol approval.  Provide information about the human subjects procedures that apply for your international studies (see the CPP IRB Policies and Procedures document).
+
+H. For studies involving medical records, explain compliance with the HIPAA privacy rule (Health Insurance Portability and Accountability Act) and disclosure of protected health information (PHI).
+
+*From the IRB Protocol Application* See http://www.cpp.edu/~research/irb/Hints_help_examples.shtml for the “Experimental subject’s bill of rights – Medical research“ consent form if any invasive procedures are to be performed.
 
 ### Data Security Procedures (5 points)
 
+A. Who will have access to and use the data?  Describe who else will be involved in this research.  What will their responsibilities be within the study?  Will you have research assistants?  
+
+For most of you, this will just be in reference to your group members. For real proposals, there are different responsibilities in a study but you will just state that all of you are conducting every part of the study. You'll make sure to include the specifics. 
+
+*From the IRB Protocol Application* All others involved and engaged in the research - including research assistants and associates - must complete CITI training before they may work with subjects.  For example, a person who hands out ICFs to participants is considered to be engaged in research, while a statistician who analyzes the data is not engaged.  Their CITI completion record must be included below in section 8:  Researcher/PI Training.
+
+B. How will the raw data be kept protected and secure?  How will it be coded or identified?  Will social security numbers or other personally identifiable information be used?  What will become of the data at the end of the study (returned, destroyed, archived?
+
+How will you "protect the data"? Will there be any coding of individual data?
+
+*From the IRB Protocol Application* Keep in mind that some demographic data are considered to be identifiers.  If you are collecting data online, know that an IP address is considered to be an identifier.  If data like audio and video tapes are kept for any reason (such as archiving for publication), the subject must be told of the purpose (e.g., conference presentations) and for how long, as part of the informed consent process. Also, if you are going to be using audio and video tapes there must be a section on the ICF for the subject to initial that they agree to being recorded.  The subject has the option, after the study is over, to contact the researcher to withdraw permission for continued use.  This information – summarized – must be included in the consent form.
+
+C. How will the data, results, and conclusions be utilized?  Do you plan to use it in a presentation, publication, or something else?  
+
+What will the data be used for?
+
+
+*From the IRB Protocol Application* Will the data be shared with any other researchers or funding agencies? Will these data appear in a published thesis or journal publication?  This information – summarized – must be included in the consent form.
 
 
 ### Potential Risks & Their Assessment (5 points)
 
+A. What are the risks?  Describe any potential harm, discomfort, or inconvenience, however minimal, as you would explain them to the subjects.
+
+Please mention any risk that you think is possible. If you think some questions could potentially bring up something about a participant's past, then you may want to mention it. This will not likely get an IRB proposal pulled; most IRBs just want to see that you considered everything, even minute details that could be potential risks. 
+
+*From the IRB Protocol Application* It can be said that everything has a risk.  Think carefully about what may potentially happen during your research.  This information – summarized – must be included in the consent form.
+
+B. Describe your procedures for protecting against or minimizing the potential risks. 
+
+Talk about your debriefing statement. Talk about the resources you will guide participants to after the completion of the study. 
+
+*From the IRB Protocol Application* Is a debriefing statement needed?  Contact information for Counseling and Psychological Services (CAPS at CPP) might be necessary.  Do you have procedures and contacts with medical emergency services for treadmill exercises or phlebotomy?  Could someone else not affiliated with the study obtain the personal and private data that you collect?  Should an adverse event like these occur – something you don’t anticipate or didn’t plan on – the IRB web site has a reporting form for this purpose.
+
+C. Explain why these risks should be determined as reasonable in relation to the anticipated benefits, if any, while conducting research with the subjects. 
+This is where you outweight the risks with the potential benefits. 
+
+*From the IRB Protocol Application* Include in your response the importance of the expected gain in generalizable knowledge, when evaluated against the risks.
+
+D. Is your study anonymous or confidential?  Why do you think so?  The response should be consistent with that in section 6 about your procedures to assure the protection of subjects’ information, sensitive data, and privacy.  
+
+*From the IRB Protocol Application* In other words:  If anonymous, how will you protect that status for the participants?  If confidential, how will you protect the information and data from further release?  See the CPP IRB web page for a discussion of what is confidential and what is anonymous.  This is a highly significant point to understand and consequently to explain in the protocol (for the Board’s review) and in the informed consent form (for the subjects).  Keep in mind that studies are either anonymous or confidential, almost never both. There are processes to de-identify data obtained in confidence, thereby making it anonymous.
 
 
 ### Consent Form (5 points)
+
+A. How will you obtain and document informed consent (for adults) or assent (for children)?  Which study personnel will be involved in obtaining consent and/or assent?
+
+We will talk about consent forms but they are pretty standardized. As long as it has all the necessary information then it will pass. I believe CPP has standardized consent forms for the university and I will share SONA specific consent forms. 
+
+*From the IRB Protocol Application* For certain types of research methods, like anonymous on-line surveys, it is possible to obtain a waiver of documentation of consent (implied or passive) from the subjects.  Contact the IRB for a determination and the requirements.  A justification must be provided to obtain the waiver during the IRB member review.
+
+B. Will there be recruitment of subjects who cannot themselves provide informed consent?  If so, how will informed consent be documented for this population?  
+
+*From the IRB Protocol Application* For example, the ability of minors to assent could be dependent upon their age and/or their circumstance.  Persons in vulnerable situations could be impaired in their ability to understand the study and may not be able to consent.
+
+C. Describe how you will maintain the consent forms received from the subjects?
+
+Talk about how you'll do this with online consent forms. 
+
+*From the IRB Protocol Application* Where (the location) will they be kept?  For how long/until when?  Will they be kept separate from subject data and specimens?  For anonymous studies, it is crucial to keep identifiers separated from the actual data.
+
+D. How many (versions of) consent and assent forms are you submitting?  Have you reviewed the checklist below?  
+
+
+
+*From the IRB Protocol Application* The IRB requests the header on the following page be included in the ICF(s) of all Cal Poly Pomona approved protocols.  It is also provided in Spanish.  Complete the ICF based upon the elements in the checklist below.  A properly written ICF will include the following elements.  You, as the primary investigator, are responsible for addressing each when writing your consent and/or assent form.  Both federal and California regulations require the inclusion of these elements to adequately inform subjects when participating in research.  Incomplete forms will be returned to you for revision.  See the IRB website for examples.  You may submit the ICF as part of this protocol application or you may send it as an attachment, but it must have the informational header below.
+
+### Informed Consent Form Checklist
+
+-	Title of the protocol (same as on the front page of this application).
+
+-	Protocol number as assigned by the IRB (it will be provided after the protocol is submitted to the eIRB); it must appear distinctly (e.g., bolded, its own line).
+
+-	A telephone number and/or e-mail address of all primary investigator(s) of this proposal, including faculty members and students, who would be the point(s) of contact for the subjects.
+
+-	Affiliations (professional and institution) of the contacts and investigators; use full names, thus don’t write Cal Poly Pomona - use California State Polytechnic University, Pomona.
+
+-	Clarification of the contacts in research projects which involve multiple sites (there can be multiple offices of research for example).
+
+-	A statement that the study you are conducting involves research.
+
+-	An explanation of the purpose(s) of the research; why it’s being conducted by you.
+
+-	A description of what the subject must do as part of the research, what data will be collected, what will happen to the data after the “active” phase of interaction with the subject is completed.  (It has been found useful to include blocks in the ICF for subjects to initial when audio or video taping, so as to further document that these methods will be conducted.)
+
+-	The expected duration of the subject's participation on the study (e.g., 50 mins in one day, four visits between May 1 and June 30).
+
+-	The information about the procedures must be presented in layman's terms (at the 5th grade reading level); it must fully explain to the subjects what they are expected to do.
+
+-	The entire consent and/or assent form may need to be translated into the subject’s language of fluency.
+
+-	Identification of any procedures or methods which are experimental.
+
+-	A description of any reasonable and foreseeable risks or discomforts to the subject.
+
+-	Changes of pronoun as appropriate to the subjects (e.g., you will be asked …; your child will do …).
+
+-	A description of any benefits to the subject or others which may reasonably be expected (or not) from the research.
+
+-	A disclosure of appropriate alternative procedures or courses of treatment, if any, that might be advantageous to the subject.
+
+-	For research involving more than minimal risk, an explanation as to whether any compensation and an explanation as to whether any medical treatments would be available if injury occurs and, if so, what that would consist of and where further information may be obtained.
+
+-	California law, under Health & Safety Code Section 24172, requires that any person asked to take part as a subject in research involving a medical experiment, or any person asked to consent to such participation on behalf of another, is entitled to receive the Experimental Research Subject’s Bill of Rights written in the language in which the person is fluent.
+
+-	An explanation of whom to contact for answers to pertinent questions about the research and research subject's rights, and - as appropriate - to contact in the case of a research-related injury to the subject.
+
+-	A statement that participation is voluntary, that declining to participate will involve no penalty or loss of benefits to which the subject is otherwise entitled, and that the subject may discontinue participation at any time without penalty or loss of benefits, to which the subject is otherwise entitled.
+
+-	Printed name and signature lines for the subject/participation and the date signed.
+
+-	Printed name and signature lines for the primary investigators (e.g., faculty member or the student conducting the research) and perhaps research associates; and the date signed.
+
+-	A statement that the subject is entitled to receive a copy of the completed informed consent (or assent) form.
 
 
 

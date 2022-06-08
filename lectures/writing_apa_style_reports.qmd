@@ -1,0 +1,667 @@
+---
+title: "Writing APA-Style Reports"
+author: "Jonathan A. Pedroza, PhD"
+format: beamer
+editor: visual
+---
+
+## JP Guidelines
+
+-   whenever you make a claim --> cite it
+
+    -   Being hungry makes you grumpy --> cite it
+
+    -   Participants were recruited --> no need to cite, your study
+
+    -   Studies stated --> GIVE ME MULTIPLE CITATIONS
+
+    -   Literature suggests --> need literature to cite
+
+-   NO QUOTES EVER!!!
+
+    -   Quotes = 0%
+
+## Goal of a Research Report
+
+-   the basic layout of an APA research paper is
+
+    -   what was done previously
+
+        -   talk about past literature and what they did
+
+        -   tell me what you have planned
+
+    -   what you did in your study
+
+        -   your sample
+
+        -   your measures
+
+        -   your analyses
+
+    -   what was found
+
+        -   what were your results
+
+    -   how can your research influence
+
+        -   future studies
+
+        -   practitioners and other researchers
+
+    -   while also stating what could have been done better and why your study was strong
+
+-   your best friend for writing is your APA manual
+
+    -   7th edition is the most up-to-date right now but 6th edition is still pretty accurate for most things
+
+## Major 7th Edition Changes
+
+-   the number of authors in a reference section before $…$ went from \~6 to 20
+
+    -   after 19th author, you can use $…$ then just state the last author's name
+
+-   the number of authors in text citations have changed from 5 before $et\;al.$ to 2
+
+    -   Pedroza and O'Brien (2022)
+
+    -   Pedroza et al. (2022)
+
+-   there are others that need to be checked but that should be
+
+## General APA Guidelines
+
+-   Book: you are trying to provide a simple straightforward description and explanation of your research study
+
+    -   JP: While this is true. There are different writing styles.
+
+-   impersonal style
+
+    -   NO FILLER
+
+    -   "a picture is worth a thousand words"
+
+    -   I don't need anything unnecessary in your paper
+
+        -   "I really appreciated this experience"
+
+## General APA Guidelines
+
+-   verb tense
+
+    -   introduction: past tense
+
+    -   method: present tense/past tense
+
+    -   results: past tense
+
+    -   discussion: present tense (your study)/past tense (past literature)
+
+-   reducing biased language
+
+    -   Book: instead of Hispanic American use Mexican American
+
+        -   JP: This is ENTIRELY INCORRECT
+
+        -   if your survey asks if participants are Hispanic/Latinx/a/o then state that
+
+        -   if citing past literature, you cite the racial/ethnic groups like the past study cited them
+
+    -   "participants completed a survey" instead of "participants were run in the study"
+
+## General APA Guidelines
+
+-   citations
+
+    -   anything that is not your own thought requires a citation
+
+        -   JP: anything that is a claim requires a citation
+
+    -   plagiarism is simply stealing others' information with citations
+
+    -   two main ways of citing
+
+        -   Pedroza et al. (2022) did some cool stuff...
+
+        -   A previous study did some cool stuff like... (Pedroza et al., 2022).
+
+    -   these can be adapted
+
+        -   Pedroza and his colleagues (2022) did some cool stuff...
+
+    -   when multiple authors that are 3 or less, use $and$ in text and **&** in the parentheses after a claim
+
+        -   Pedroza and O'Brien (2022) still did some cool stuff...
+
+        -   The authors of the experiment did some cool stuff (Pedroza & O'Brien, 2022).
+
+    -   In method section, according to APA, you do not need to cite an author or group when referring to them after you cited them the first time
+
+        -   this is to de-clutter the paragraph with just constant citations
+
+        -   once you change authors by citing a different article, you must cite the new authors then the old authors again
+
+        -   Ex: Pedroza (2021) made this cool measure and then did some cool stuff. He was like "hey check out my cool measure." O'Brien et al. (2022) then adapted that measure to be better because the original one sucked. Pedroza (2021) says his measure is good from the start and does not need to be adapted.
+
+## Manuscript Pages
+
+-   All of these components start on a new page
+
+-   Title page
+
+    -   must be 12 words or less
+
+-   Abstract
+
+    -   250 words commonly used
+
+-   Text
+
+    -   does not include the heading introduction, instead it starts with the title
+
+-   References
+
+-   Tables & Figures
+
+-   Appendix or Appendices
+
+## Title Page
+
+-   requires running head
+
+    -   50 characters with spaces
+
+    -   abbreviated title with all capital letters
+
+    -   Ex: DEPRESSION AND ACADEMIC PERFORMANCE
+
+        -   no need to include *Running head* in header anymore (7th edition)
+
+-   title
+
+    -   title case (Association Between Depressive Symptoms and Academic Performance)
+
+        -   if you have space for these words, include them, if not rework title
+
+    -   12 words or less
+
+-   authors
+
+    -   you and your group members
+
+    -   can include class and assignment if you want
+
+## Abstract
+
+-   changes from journal to journal
+
+-   250 words for your assignment
+
+-   some are formatted, some are just a paragraph
+
+-   no indentation on the paragraph
+
+-   Breakdown of abstract includes
+
+    -   one sentence on problem
+
+    -   description of sample
+
+    -   description of methods (measures, procedure, analyses)
+
+    -   results reported
+
+    -   conclusion about findings
+
+    -   implications if there is room
+
+## Abstract Example
+
+**(Introduction)** Adolescent opioid misuse is a public health crisis, particularly among
+clinical populations of youth with substance misuse histories. Given the
+negative and often lethal consequences associated with opioid misuse
+among adolescents, it is essential to identify the risk and protective
+factors underlying early opioid misuse to inform targeted prevention
+efforts. Understanding the role of parental risk and protective factors
+is particularly paramount during the developmental stage of adolescence.
+**(Aims/Purposes)** Using a social-ecological framework, this study explored the
+associations between individual, peer, family, community, and
+school-level risk and protective factors and opioid use among
+adolescents with histories of substance use disorders (SUDs). Further,
+we explored the potential moderating role of poor parental monitoring in
+the associations between the aforementioned risk and protective factors
+and adolescent opioid use. **(Method)** Participants included 294 adolescents (*M~age~* = 16 years; 45% female) who were recently discharged from substance use treatment, and their parents (*n*
+= 323). **(Results)** Results indicated that lifetime opioid use was significantly
+more likely among adolescents endorsing antisocial traits and those
+whose parents reported histories of substance abuse. Additionally,
+adolescents reporting more perceived availability of substances were
+significantly more likely to report lifetime opioid use compared to
+those reporting lower perceived availability of substances. Results did
+not indicate any significant moderation effects of parental monitoring
+on any associations between risk factors and lifetime opioid use.
+**(Discussion)** Findings generally did not support social-ecological indicators of
+opioid use in this high-risk population of adolescents, signaling that
+the social-ecological variables tested may not be salient risk factors
+among adolescents with SUD histories. **(Implications)** We discuss these findings in terms
+of continuing care options for adolescents with SUD histories that
+target adolescents' antisocial traits, perceived availability of
+substances, and parent histories of substance abuse, including practical
+implications for working with families of adolescents with SUD
+histories.
+
+## Introduction
+
+-   tells me the why part of your narrative
+
+-   you never talk about your own study here
+
+    -   don't tell me "Well we did this because this study did not"
+
+-   ONLY talk about past literature and what is missing
+
+-   Give me past literature and set me up for your study
+
+-   Below is the format we have/will talk about for your papers
+
+-   at the top, centered, you should have the title of your paper again
+
+    -   NOT THE WORD INTRODUCTION
+
+## Introduction
+
+-   Start off by telling me what the initial problem is (1st paragraph)
+
+    -   you can start with a statistic gathered from an organization
+
+    -   you can also look for literature that states that problem
+
+## Introduction
+
+-   then talk about the relationships of interest between your IV of interest and your DV (2nd paragraph)
+
+    -   the relationship between IV and DV has been seen in past literature
+
+    -   these studies found this
+
+    -   these other studies found this
+
+    -   but these studies don't talk about this
+
+## Introduction
+
+-   talk about the relationship between your second IV and your DV (3rd & maybe 4th paragraph)
+
+    -   JP: these are combined if you are including the literature of the main effect and the interaction, if not separate paragraphs
+
+    -   in addition to \_\_\_\_, studies have examined the relationship between IV2 and DV
+
+    -   research shows
+
+    -   No one has talked about this how this variable may change the previous relationship (IV1 and DV)
+
+    -   moderator/interaction (if combining 3rd and 4th paragraphs)
+
+-   interaction (if not combining)
+
+## Introduction
+
+-   theory or framework (1 paragraph)
+
+    -   talk about how other studies have used this framework
+
+    -   talk about what is missing in the literature regarding the framework
+
+## Introduction
+
+-   talk about specific control variables, if they are important to your analyses and the relationship they have with the DV
+
+    -   if age is important and the relationship with your DV
+
+## Introduction
+
+-   tell me what is missing in your literature review (1 paragraph)
+
+    -   are they only correlational studies
+
+    -   are they only focused on children/adolescents
+
+    -   are they only focused on middle-class White adult males
+
+    -   set me up for what you are doing in your study
+
+## Introduction
+
+-   give me your aims/purposes and your hypotheses (1 paragraph)
+
+    -   from examining the literature on this topic, we hypothesized \_\_\_\_\_\_\_\_
+
+    -   1 hypothesis for your main IV and DV
+
+    -   1 hypothesis for your interaction
+
+        -   you could also have another hypothesis for your second IV and DV
+
+## Method
+
+-   centered and title case --> Method
+
+-   tells you everything about YOUR current study
+
+-   readers should be able to read this and should be able to recreate your study
+
+-   subsections of a method section
+
+    -   Participants
+
+    -   Procedures (Design)
+
+    -   Measures
+
+    -   Data Analysis Plan/Analytic Plan
+
+## Method
+
+-   Participants paragraph (1 paragraph)
+
+    -   how were participants recruited
+
+    -   how many participants
+
+    -   any inclusion/exclusion criteria
+
+        -   CPP students
+
+        -   18+
+
+    -   REAL STUDIES provide a statement about getting IRB approval, you won't need this
+
+## Method
+
+-   Procedure paragraph (1-2 paragraphs)
+
+    -   tell me what you did
+
+    -   how long was your stimuli presented
+
+    -   what was the design
+
+        -   pretest-posttest
+
+        -   posttest only
+
+        -   quasi- or true experiment
+
+    -   instructions given to participants
+
+    -   did you create your stimuli
+
+        -   if not, where was it collected from, including pamphlets and where they were gathered from (with citations if from websites)
+
+        -   why was it collected from there
+
+    -   what was the compensation
+
+    -   was there deception
+
+        -   how was it implemented
+
+    -   were there confederates
+
+        -   what were the roles
+
+## Method
+
+-   Measures (paragraph for each)
+
+    -   straight from the IRB measures section
+
+    -   tell me what information you collected
+
+    -   structured as:
+
+        -   construct as a subheading
+
+        -   first sentence "construct was assessed using the \_\_\_\_\_\_" with citation
+
+        -   how many questions
+
+        -   what was the scale
+
+        -   give me a sample question or two
+
+        -   how was it scored
+
+        -   what have past literature found regarding its validity and reliability (must have for construct measures)
+
+        -   what was your reliability (we will get to this next week when we calculate that together)
+
+## Method
+
+-   Analytic Plan (one paragraph)
+
+    -   how many participants did not answer certain questions
+
+    -   what was included in your analytic models
+
+    -   tell me how variables were coded that were included in the model (categorical vs continuous)
+
+        -   most of you (IV1, IV2, interaction, any control variables)
+
+        -   pretest-posttest (IV1 \[time\], IV2, interaction, control variables)
+
+    -   any exploratory analyses you conducted/plan to conduct
+
+        -   if you think something else is interesting in your data, here is when you would write about it
+
+        -   Ex: interaction did not show anything, but you saw descriptive statistics that led you to want to test another interaction
+
+## Results
+
+-   Bold and centered heading --> **Results**
+
+-   should be your shortest section
+
+-   straightforward
+
+    -   don't tell me anything else besides what the statistics tell me
+
+    -   don't tell me what the findings mean, just tell me what you found
+
+    -   Ex: Participants in the treatment group (M = XX, SD = XX) got better grades than those in the control group (M = XX, SD = XX; F(XX, XX) = XX, p = XX).
+
+## Results
+
+-   first paragraph will be about your sample
+
+    -   could be in a table if you are reporting a lot of descriptive statistics
+
+    -   descriptive statistics of your sample (categorical variables = percentages, continuous variables = mean and standard deviation)
+
+        -   age
+
+        -   race/ethnic background
+
+        -   income
+
+        -   sex/gender
+
+        -   sexual orientation
+
+        -   other identities that may be important to provide
+
+    -   you could also include the breakdown of your sample by your $2\;x\;2$ design
+
+        -   how many participants per group
+
+## Results
+
+-   preliminary analyses (1 paragraph)
+
+    -   assumptions of your test statistic
+
+    -   maybe you wanted to see if your groups are different by any other variables
+
+        -   maybe they are different in regard to age
+
+        -   you would test and talk about this
+
+        -   Ex: We tested if our groups were different by age, and found a statistically significant difference between our groups; t(XX) = XX, p = XX. Our treatment group (M = XX, SD = XX) was significantly older than the control group (M = XX, SD = XX). Because of this, we decided to include it in the model as a control variable since it could be a confound in our relationship of interest.
+
+## Results
+
+-   Hypothesis 1 (1 paragraph)
+
+    -   we tested this and found this
+
+    -   give me all the stats
+
+    -   maybe a table mentioned that includes everything from H1, H2, and H3
+
+-   Hypothesis 2 (1 paragraph)
+
+    -   we tested this and found this
+
+    -   give me all the stats
+
+-   Hypothesis 3 (1 paragraph)
+
+    -   we tested this and found this
+
+    -   give me all the stats
+
+    -   throw in a reference to a table or figure (interaction will need a figure because its easier on the reader)
+
+-   Exploratory analyses (1 paragraph)
+
+## Discussion
+
+-   bold and centered heading
+
+```{=html}
+<!-- -->
+```
+-   restate the purposes/aims and hypotheses (1 paragraph)
+
+-   tell me about your most interesting finding - 1 hypothesis (1 paragraph)
+
+    -   restate what you found (without statistics)
+
+    -   tell me if the finding is consistent with your hypothesis
+
+    -   connect your findings with past literature
+
+    -   explain why you think your study findings did not show what you thought it would
+
+        -   have supporting literature
+
+    -   if it did support your hypothesis
+
+        -   what more can this study tell you
+
+## Discussion
+
+-   tell me about your second finding - 2nd hypothesis (1 paragraph)
+
+    -   everything is the same as the previous paragraph
+
+-   tell me about your third finding - 3rd hypothesis (1 paragraph)
+
+    -   everything is the same as the previous paragraph
+
+## Discussion
+
+-   tell me what are the strengths of your study's design (1 paragraph)
+
+-   tell me what are the limitations of your study's design (1 paragraph)
+
+-   what are the implications for your study (1-2 paragraphs)
+
+    -   Ex: Depression & grades
+
+        -   for instructors: locate students that are showing symptoms of depression
+
+        -   for researchers: think about testing depression on a continuum rather than if they meet MDD diagnosis or not
+
+        -   for practitioners (therapists): may want to promote testing for depressive symptoms to gain access to additional services for students suffering from depression
+
+        -   for administrators: may want to think about promoting extra services (disability services) for students suffering from depressive symptoms
+
+-   some studies end with a conclusion paragraph and section
+
+## References
+
+-   alphabetical order
+
+-   own page with centered and bolded heading title
+
+-   must have hanging format
+
+-   APA style
+
+-   for journals
+
+    -   authors --> year --> title (not in title case; capital letter after punctuation \[except commas\]) --> journal (italicized & title case) --> volume number (italicized) --> page numbers
+
+    -   Ex: Pedroza, J. A. (2022). Journal title that is super awesome. *Journal of Fake Submissions, 12,* 65-72.
+
+## Tables & Figures
+
+-   7th edition, both tables and figures are similar
+
+-   Format
+
+-   bolded left justified: Table XX
+
+-   left justified title in title case: Means and SD for Control Variables
+
+-   table/figure
+
+-   table note: *Note.* abbreviation = full word, ex: GPA = Grade point average; \*p \< .05, \*\*p \< .01, \*\*\*p \< .001
+
+-   if you have a wide table, you may want to change the layout from portrait to landscape for that one page so everything fits
+
+## Appendix
+
+-   Extra information
+
+-   if using a pamphlet you found online, you should include it in your appendix or appendices if you have more than one document to include
+
+-   if you made changes to a measure, then you'll have to include it in the appendix
+
+    -   formatted like the original measure
+
+    -   numbered questions, put the scale on there, put the prompt/questions, etc.
+
+## Submitting Manuscripts for Publication
+
+-   many more changes are required for submitting a manuscript for publication
+
+-   journals do not all follow APA guidelines
+
+-   there are extra constraints
+
+    -   abstract is formatted or not with less words/characters
+
+    -   may need to remove any articles of yours that you cite
+
+    -   may be submitted in different documents
+
+    -   require a cover letter to the editor
+
+-   will be either desk rejected (editor does not think it will fit), rejected by reviewers, revise and resubmit (by fixing edits from reviewers), accept with minor edits
+
+## Writing a Research Proposal
+
+-   essentially the funding proposal
+
+-   may need to write a proposal for a thesis/dissertation on your research idea
+
+    -   most often it is a review of the literature and a rationale for your current study
+
+        -   Literature review
+
+        -   purpose and hypotheses/research questions
+
+        -   method section (measures, design, analytic plan, and expected findings)
+
+## 

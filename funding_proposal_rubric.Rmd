@@ -158,15 +158,190 @@ a {
 
 # Rubric
 
-**NOTE** This is not a formal funding proposal. This is just an example of a writing assignment you may have to do in future endeavors. 
+**NOTE** This is not a formal funding proposal. This is just an example of a writing assignment you may have to do in future endeavors. The assignment should answer the following questions:
+
+1. What do you intend to do?
+
+2. Why is this worth doing or the significance of the research? How is it innovative?
+
+3. What has already been done in general, and what have other researchers done in this field? Use references to talk about what work has already been done. What will this new work add to the field of knowledge?
+
+4. What have you done to establish the feasibility of what you are proposing to do?
+
+5. How will the research be accomplished?
+
+Suggestions:
+
+1. Make sure all sections are consistent and have some type of numbering/categorization system. Lead the reader through your research plan in a logical manner.
+
+2. Show knowledge of recent literature and explain how the proposed research will further what is already known.
+
+3. Emphasize how your novel hypothesis(es), preliminary data (from your study now), and experimental approach will enable important progress to be made.
+
+4. Establish credibility of your work and your research skills.
+
+OVERALL CONSIDERATIONS 
+
+1.	Write for a tired, distracted reader.
+
+2.	Observe application guidelines strictly. 
+
+3.	Use basic English and avoid jargon. 
+
+4.	Make sure all acronyms are spelled out when used initially. 
+
+5.	Be consistent with terms, references, and form writing style 
+
+6.	Observe the type size and page limitations strictly; do not use a small font. 
+
+7.	Make sure all citations are complete: title, authors, book or journal, volume number, inclusive pages, year of publication.
+
 
 ## Total Points (50 points)
 
-### Formatting
+### Formatting - 5 points
 
-- must be APA formatted
-- 
+  - APA formatting throughout
 
-### Specific Aims
+  - provide references in APA format
 
-### 
+  - margins should be .5 all around
+
+  - Font **NEEDS** to be Arial 11pt font
+
+  - Can include visuals, figures, and/or tables
+
+  - Excluding the specific aims (1 page), the other sections can only be 6 pages long.
+
+  - single-spaced
+
+### Specific Aims - 15 points
+
+The first section you'll have is the *Specific Aims* section. The purpose of this is to describe concisely and realistically the goals of the proposed research and summarize the expected outcome(s), including the impact of the proposed research will exert on the research fields involved. **This is the most important section of the grant because if its not good, the reader will stop reading your proposal**. 
+
+Breakdown of Specific Aims:
+
+- It should only be **one page**. No tricks trying to make it shorter by changing the margins slightly.
+
+- First paragraph should identify the problem (hook statement), then what is known, what is unknown, and then the problem and what is needed
+
+- Second paragraph should outline the solution to the problem
+
+  - long-range goal, your goal for your study in the proposal, rationale, why you can achieve the goal
+
+- Third paragraph should spell out the approach
+
+  - give me your aims (look at the example)
+
+- Fourth paragraph should summarize your innovation, expectations, and impact
+
+
+- Throughout this section, you'll also need to include your hypotheses to be tested, your expected outcome, and the impact in the field
+
+Suggestions: 
+
+- make your aims and hypotheses clear
+
+- be brief and specific, you only have a page
+
+- Don't be overly ambitious. Your project can only do so much.
+
+- Have your aims build off of one another or are similar enough.
+
+- Focus on aims where you have preliminary data (your current study)
+
+- Include brief statement on impact of your proposed study.
+
+### Significance - 10 points
+
+The *Significance* section should be roughly 1-2 pages and should explain the importance of the problem. Explain how the proposed study will improve the field, technical or clinical practices in one or more fields. Describe how the concepts, methods, technologies, treatments, or interventions that are currently in the field will change if your study's findings are supported. 
+
+Breakdown of Significance:
+
+- Should cover the existing knowledge/literature with citations
+
+- Include the rationale of the proposed research study
+
+- Explain gaps that your study will will
+
+- Include potential contributions of this research to the scientific field and practitioners/clinicians
+
+Suggestions:
+
+- Make a compelling argument for your study.
+
+- Avoid outdated research
+
+- Use literature to support your argument
+
+- Explain how the findings of your study can be applied to future research and outside of the field of research
+
+- State implications for relevant field (psychology/public health/practitioners)
+
+- Show that your study is feasible, both time and actually running the study
+
+  - Include a time frame for each specific aim
+
+- Stress any innovations in experimental methods (new strategies, research methods; e.g., using online resources)
+
+- There not being any literature on your study is not enough. State why it is important in addition to the lack of literature.
+
+### Innovation - 10 points
+
+The *Innovation* section is focused on what specifically your study provides the field of literature that the rest of the field may not. Is there a specific theory that hasn't been supported? Is there a new approach to a well-known design? Is there a new methodology (using online resources compared to in-person)? Are you using an instrument that past literature has not used? OR Are you refining something that is well known? Are you extending the field by incorporating something novel into your study? This section should be half a page to a full page long. 
+
+Breakdown of Innovation:
+
+- Explain why concepts and/or methods you adapted or created are novel to the research field
+
+- Focus on the innovation to your study's design
+
+- Summarize novel findings to be presented as preliminary data in the Approach section
+
+Suggestions:
+
+- Number your innovations. You should have 2-4 innovations. Make it clear to the reader what your innovations are.
+
+- Describe how your design/study is different from the field. 
+
+- Provide some literature to support your innovation. This may be in the form of what other literature is doing and how your study is different.
+
+### Approach - 10 points
+
+The purpose of the *Approach* section is to describe how the research will be carried out. This section will be roughly 2-3 pages long. 
+
+Breakdown of Approach:
+
+- Include overview of your research design
+
+- Include preliminary studies/data
+
+- Describe the methods and analyses used to accomplish your aims
+
+- Discuss limitations of your study and how you may mitigate any issues that may arise (e.g., attrition)
+
+- List expected results of your study
+
+- Alternative approaches if unexpected results are found in preliminary data
+
+- Timetable or work plan of your study
+
+- Describe any strategy to make your study feasible. State how you would address difficult components of your study (e.g., getting participants from a specific population)
+
+- Provide details about how your data will be collected, analyzed, and interpreted
+
+- If adapting from a previous study, state how your methodology used is an improvement on past literature
+
+Suggestions:
+
+- While you should cite past literature's designs, make sure to still state your design and how its an improvement. 
+
+  - Don't make the reader have to look at past literature to understand your design.
+
+- State why your approach is used for your design. Don't only state that your design is better. Tell me why it is better.
+
+- If you are explaining a new technology/methodology, take care to provide details about the device/methodology
+
+- Develop alternative strategies if problems arise (e.g., can't get participants from a community center, go stand in front of a local market)
+
+- Document any proposed collaborations or sharing of data.

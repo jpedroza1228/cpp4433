@@ -1,0 +1,34 @@
+---
+title: "Single-Case Experimental Research Designs"
+author: "Jonathan A. Pedroza, PhD"
+format: beamer
+editor: visual
+---
+
+## Single-Case Designs Introduction
+
+## Critical Elements of Single-Case Experimental Designs
+
+## Phases & Phase Changes
+
+## Level, Trend, & Stability
+
+## Changing Phases
+
+## Visual Inspection Techniques
+
+## Reversal Designs
+
+## Limitations of the ABAB Design
+
+## Variations on the ABAB Design: Complex Phase-Change Designs
+
+## Multiple-Baseline Designs
+
+## Component Analysis Designs
+
+## Rationale for Multiple-Baseline Designs
+
+## Strengths & Weaknesses of Single-Case Designs
+
+## 

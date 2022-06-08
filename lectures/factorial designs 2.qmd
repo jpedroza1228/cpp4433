@@ -1,0 +1,134 @@
+---
+title: "Factorial Designs Part 2"
+author: "Jonathan A. Pedroza, PhD"
+format: beamer
+editor: visual
+---
+
+## Pretest-Posttest Control Group Designs
+
+-   comparison between treatment and control group
+
+    -   between-subjects factor
+
+-   treatment and control groups are measured before any treatment
+
+    -   the treatment group gets the treatment, the control group gets nothing
+
+-   then they are both tested again on the same measure
+
+    -   Ex: Pretest - Exam --> Study Guide/No Study Guide --> Exam
+
+    -   Would it make more sense to have the exam be the same for pre and posttest?
+
+    -   example of a two-factor mixed design (2 x 2 mixed factorial design)
+
+## Pretest-Posttest Control Group Designs
+
+-   this design can be used for both quasi-experimental and experimental designs
+
+    -   you can decide who gets the study guide and who doesn't
+
+        -   maybe off past grades in statistics
+
+    -   you can randomizly select participants to be put in the two groups to make this an experimental design
+
+## Higher-Order Factorial Designs
+
+-   **higher-order factorial designs** are when there are three or more factors
+
+    -   this would resemble the A x B x C designs
+
+    -   Ex: Depression, Sex, Age Group (Adolescent vs Young Adult) on Exercise Levels
+
+        -   instead of only having an interaction between A and B
+
+        -   we would have one three-way interaction (A x B x C), three two-way interactions (A x B, A x C, B x C), and the three main effects (A --> outcome, B --> outcome, C --> outcome)
+
+## Statistical Analysis of Factorial Designs
+
+-   statistics for factorial designs depend on whether or not there is a within-subjects factor
+
+    -   if all factors are between-subjects factors = ANOVA/regression
+
+    -   if you have one within-subjects factor = repeated measures ANOVA
+
+        -   even if you have a mixed design factorial design, you'll still use this method
+
+-   A two-factor ANOVA (2 x 2 as an example) would provide three potential hypotheses
+
+    -   H1: Interaction
+
+    -   H2: Main Effect 1
+
+    -   H3: Main Effect 2
+
+## Statistical Analysis of Factorial Designs
+
+-   Ex: Depression Treatment (Therapy vs no therapy), Age Group (Adolescent vs Young Adult) on Exercise Levels
+
+    -   H1: The relationship between depression treatment and exercise levels will depend on the age group of participants
+
+        -   Alternative H1: The age group of participants will moderate the relationship between depression treatment and exercise levels.
+
+    -   H2: The group that receives therapy will exercise more or less than the no therapy group.
+
+        -   H2: The group that receives therapy will exercise more than the no therapy group.
+
+    -   H3: Differences will be seen in exercise levels between adolescents and young adults.
+
+-   JP: we'll mostly cover these tests for your studies toward the end of the semester
+
+## Applications of Factorial Designs
+
+-   factorial designs tend to come from past literature/studies
+
+    -   Similar to correlational designs
+
+    -   if you know there was a difference between two groups (depression treatment), now you wonder if that would change by the age of the participants (age groups) to see if it would have a different effect on exercise
+
+-   JP: nowadays if you have an interaction/moderator variable, you have a good chance of getting a study published; just looking at linear relationships may not be enough sadly
+
+## Reducing Variance in Between-Subjects Designs
+
+-   the amount of variation in groups can be problematic to seeing a true effect
+
+    -   Ex: age groups are adolescents and adults, instead of young adults
+
+-   there is an easy way to handle this variation that makes ANOVA more appropriate to handle variation in a continuous variable
+
+    -   What do you think you can do?
+
+-   This is another reason why I am not worried about you including other constructs, that may be measured as continuous, into your survey
+
+## Reducing Variance in Between-Subjects Designs
+
+-   separating your continuous variables can be helpful, but there are some considerations that need to be considered before splitting them into groups
+
+    -   If you split your continuous variable into two groups, right down the middle
+
+        -   referred to as the median split
+
+        -   are your groups really all that different?
+
+    -   you'll have to get creative for how to separate continuous variables into groups
+
+        -   only a real problem if your data looks normally distributed
+
+    -   if bimodal distribution, split into groups somewhere in the middle of the two distributions
+
+## Using Treatment Order as Second Factor
+
+-   sometimes researchers want to examine the cause that order effects have on the outcome
+
+-   **counterbalancing** is a technique that allows researchers to control for confounds like order effects in within-subjects designs
+
+    -   by making some participants begin with one treatment while the other group starts with the other treatment
+
+-   useful for showing a true effect between the treatments/conditions
+
+    -   you can have the main effect of the treatments not be statistically significant, because the order of the treatments
+
+    -   you can also have issues with having actual differences in the treatments but when averaged together, you no longer see the difference
+
+    -   you could also just not see as strong of a difference between the groups because of order effects

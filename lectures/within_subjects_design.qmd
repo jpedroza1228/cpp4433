@@ -1,0 +1,154 @@
+---
+title: "Within subjects Design"
+format: beamer
+editor: visual
+---
+
+## Characteristics of Within-Subjects Designs
+
+-   **within-subjects design** uses a single group of participants and tests or observed each participant in all of the different treatments being compared
+
+-   two possible structures of a within-subjects design
+
+    -   sample gets treatment 1 --> treatment 2 --> treatment 3
+
+    -   sample gets all treatments administered together
+
+-   also referred to as a **repeated-measures design** because you test the same participants under different conditions while repeating measurements
+
+-   **within-subjects experimental design** or **repeated-measures experimental design** is an experimental design where you compare treatments instead of comparing groups
+
+## Threats to Internal Validity - Within-Subjects Experiments
+
+-   two main confounding sources are confounding from environmental variables and confounding from time-related variables
+
+-   confounding from environmental variables
+
+    -   environmental characteristics that can change from one condition to the next
+
+    -   Ex: loud environment vs quiet environment
+
+## Threats to Internal Validity - Within-Subjects Experiments
+
+-   confounding from time-related variables
+
+    -   because measurements happen over time, confounding factors may influence participants
+
+        -   **history** refers to confounding factors that change over time and can result in different scores from participants in different treatment conditions
+
+        -   **maturation** is any systematic change in participants' physiology or psychology
+
+        -   **instrumentation** is sometimes called **instrumental bias** or **instrumental decay**
+
+        -   mainly for behavioral observation where measurement changes over time
+
+        -   **regression toward the mean** or **statistical regression** is the tendency for extreme scores on a measurement to move toward the mean when tested repeatedly
+
+        -   taking exams and having some luck in addition to students' knowledge
+
+## Threats to Internal Validity - Within-Subjects Experiments
+
+-   **order effects** are changes in performance from participating in other conditions
+
+    -   **practice effects** are when participants improve from gaining experience in conditions
+
+    -   **fatigue effects** are progressive decline from going through conditions
+
+    -   **carry-over effects** are when one condition's treatment leads to change in participant scores in the following conditions
+
+        -   **contrast effects** are when the previous treatment leads to change because of how different the previous treatment was to the current treatment
+
+        -   Ex: Being in a dark room and then going to a moderately lit room compared to starting from a bright room and going to a moderately lit room
+
+    -   **progressive error** is when participants' behaviors are influenced by the study itself and not the treatment
+
+        -   practice effects and fatigue
+
+## Separating Time-Related Factors & Order Effects
+
+-   history, maturation, instrumentation, and regression are specifically related to issues with time
+
+    -   often referred to as time-related threats to internal validity
+
+```{=html}
+<!-- -->
+```
+-   order effects are related to experiences by participants in treatment conditions
+
+-   both only occur in within-subjects experimental designs
+
+## Order Effects as a Confounding Variable
+
+-   the order of treatment conditions a participant takes can directly influence their scores
+
+    -   good reason to test the order of treatment conditions to see whether they act as a moderator
+
+-   if all participants are exposed to the treatments in the same order, increase/decrease in scores from condition 1 to condition 2 for participants would indicate an order effect
+
+    -   while the difference in conditions could show a significant difference, it could also be indicating that there is an order effect
+
+-   if the order effect varies systematically between treatments, it is a confounding variable
+
+    -   influences second treatment, but never influences the first treatment
+
+-   can distort findings because the confound of an order effect can distort findings
+
+    -   either show an exaggerated real difference or show a diminished difference
+
+## Within-Subjects Design & Environmental Threats
+
+-   similar to between-subjects design, you can control for environmental threats to internal validity
+
+    -   randomization
+
+    -   holding environmental factors constant
+
+    -   matching across treatment conditions
+
+-   Ex: depression treatments (medication, cognitive-behavioral therapy, and CBT + medication)
+
+## Controlling Time
+
+-   things like history or maturation are related to the length of time to complete your study as threats to internal validity
+
+-   if the time difference between treatments is large (weeks, months, years), then there is a higher likelihood of having issues like history or maturation arise
+
+-   shortening the time between treatments can also be problematic because it can lead to order effects
+
+    -   trade off of time-related threats or order effects
+
+-   What are your options as a within-subjects experimental researcher?
+
+## Switch to a Between-Subjects Design
+
+-   while some studies can assume that exposure to several treatments can lead to order effects (e.g., fatigue, boredom), there are some situations where these order effects may be too larger
+
+-   a between-subjects design can be a great alternative to a within-subjects design, especially if the conditions will provide some information to students
+
+    -   Many of your projects would be horrible within-subjects designs? (Not to say that a mixed-design would be bad. Those are fine.)
+
+    -   How does a researcher know when to switch to a between-subjects design?
+
+## Counterbalancing: Matching Treatments with Respect to Time
+
+-   in an attempt to remove time-related threats to internal validity, we can use **counterbalancing**
+
+    -   counterbalancing is the process of matching treatments with respect to time
+
+-   the main concept behind counterbalancing is that you remove the time-related threats by switching the order of some participants when receiving treatment conditions
+
+    -   Some may get treatment 1 first, others may get treatment 2 first
+
+## Counterbalancing & Order Effects
+
+-   counterbalancing has exactly the same effect on order effects as it does for time-related threats
+
+-   counterbalancing distributes order effects evenly between two treatments, where order effects are balanced across treatment conditions
+
+    -   there are still order effects (no way around that), but the order effects, like fatigue, affect both groups (treatment 1 first, treatment 2 first) equally
+
+        -   cancels out the order effect on participants
+
+-   Note: counterbalancing does not eliminate order effects
+
+    -   it just distributes them evenly

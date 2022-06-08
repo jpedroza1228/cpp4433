@@ -1,0 +1,342 @@
+---
+title: "Ethics"
+subtitle: "PSY 4433"
+author: "Jonathan A. Pedroza, PhD"
+institute: "Cal Poly Pomona"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(xaringanthemer)
+style_duo(primary_color = '#56B4E9', secondary_color = 'black')
+```
+
+# Agenda
+
+- General Ethics
+- Ethical Issues & Human Particpants in Research
+- Nonhuman Subjects in Research
+- Ethical Issues and Scientific Integrity
+
+---
+
+# Introduction to Ethics
+
+- **Research ethics** is the general approach of making sure researchers are honest and respectful to all individuals that take part in research studies and/or are included in study findings
+
+- basic categories of ethical responsibility are:
+  - ensure welfare of individuals, both human (participants) and nonhuman (subjects)
+  - ensure public reports of research are accurate and honest
+
+---
+
+# Ethical Issues - Human Participants
+
+- **Nuremberg Code** are a set of guidelines for ethical treatment of participants in research
+  - due to inhumane treatment of prisoners used as "participants" for "medical" experiments
+  - didn't stop all instances 
+
+- Tuskegee study - Black male participants left with untreated syphilis
+
+- Milgrim - having participants shock/punish others for errors in learning task
+
+- **National Research Act** mandated regulations to protect participants
+
+- **Belmont Report** summarized the basic ethical principles, which are used as the basis for protecting participants
+
+---
+
+# Nuremberg Code
+
+1. Voluntary consent
+2. Should be good for society 
+3. designed to test problem where findings will justify the experiment
+4. Experiment should avoid unnecessary physical and mental injury
+5. No experiment should be conducted when death/disabling injury will occur
+6. Degree of risk should not be greater than importance to answering problem
+7. Proper preparations made should protect injury and/or death
+8. Experiment conducted by qualified personnel
+9. Participant can end experiment at any time
+10. Experimenter should be prepared to stop experiment if risks outweigh benefits
+
+---
+
+# Belmont Report
+
+.pull-left[
+- **principle of respect for persons (autonomy)**  requires that participants should consent to participate in studies
+  - this also means that participants should know what they are consenting to
+
+- **Principle of beneficience** requires that researchers do not harm participants, minimize risks, and maximize potential benefits
+  - while benefits are difficult to interpret, studies should still limit risks
+]
+
+.pull-right[
+![squid games](https://media.giphy.com/media/PAqjdPkJLDsmBRSYUp/giphy.gif)
+]
+
+---
+
+# Belmont Report
+
+.pull-left[
+- **principle of justice** requires fair and nonexploitative procedures for *selection* and *treatment* of participants to risks and benefits are distributed equally
+]
+
+.pull-right[
+![squid games](https://media.giphy.com/media/PAqjdPkJLDsmBRSYUp/giphy.gif)
+]
+
+---
+
+# American Psychological Association *Guidelines*
+
+- **APA Ethics Code** contain ethical standards that were created and constantly updated for participant research by the American Psychological Association (APA)
+
+- Major Ethical Issues
+  - No Harm
+  - Privacy & Confidentiality
+  - Institutional Approval
+  - Competence
+  - Record Keeping
+  - Informed Consent to Research
+  - Dispensing with Informed Consent
+  - Offering Inducements for Research Participation
+  - Deception in Research
+  - Debriefing
+  
+---
+
+# No Harm
+
+.pull-left[
+![punching](https://media.giphy.com/media/mMWgoBk9sqVMI/giphy.gif)
+]
+
+.pull-right[
+- psychological research does not often have physical harm
+  - psychological harm can be just as harmful to participants
+
+- **clinical equipoise** is a concept that clinicians have an ethical responsibility to provide the best treatment for patients
+]
+ 
+
+---
+
+# Informed Consent Forms
+
+.pull-left[
+- **informed consent** is that participants given complete information about the research to make a rational decision to participate
+  - information about the study could keep participants *blind* to the purpose of the study --> deception
+  - understanding the study means that participants know what they are getting themselves into
+  - voluntary participation in the study means that at any time, participants can leave the study without any negative consequences
+]
+
+.pull-right[
+![reading book](https://media.giphy.com/media/ql6hxonaYC6EE/giphy.gif)
+]
+
+---
+
+# Informed Consent
+
+- **Consent forms** provide all necessary information about the study with a section for participants to sign to show they read and understand every part of the study
+
+- Overview
+- Description of Procedures
+- Risks
+- (Potential) Benefits
+- Costs
+- Confidentiality
+- Alternative Treatments
+- Voluntary Participation
+- Questions and Contact Information (IRB & Principal Investigator)
+- Signature Line
+- Copy for participants
+
+---
+
+# Deception
+
+.pull-left[
+![sneaky sneaky](https://media.giphy.com/media/IteKtmQg9gP4I/giphy.gif)
+]
+
+.pull-right[
+- **Deception** is when a researcher withholds information or misleads participants about the study to see an effect
+  - **Passive deception/omission** is withholding information; researchers don't tell participants something important about the study
+  - **Active deception/commission** is presenting misinformation; researchers mislead participants to the actual purpose of the study
+]
+
+---
+
+# Confederates?
+
+.pull-left[
+- not those kind
+
+- **confederates** are fake participants who can help with deception and work for the research team
+]
+
+.pull-right[
+![fellow students](https://media.giphy.com/media/JTzPN5kkobFv7X0zPJ/giphy.gif)
+]
+
+---
+
+# Deception
+
+- deception should be justified in terms of benefits outweighing risk to participants
+  - researchers should consider other options before deception
+
+- cannot conceal from prospective participants information about research that can cause physical or psychological harm/pain
+
+- participants must be debriefed (most of the time immediately) by providing a complete explanation after participation is completed
+
+---
+
+# Debriefing
+
+- **Debriefing** is the process of explaining the purpose of the study/experiment after the participant has finished participating in the study/experiment
+  - especially important if deception was used
+  
+- useful for minimizing risks
+
+- explaining the benefits of the study (even if educational contribution to research)
+
+- answering questions
+
+---
+
+# Debriefing
+  
+.pull-left[
+- has been found to be annoying or embarrassing to participants
+  - no one likes being embarrassed
+  
+- influences of debriefing effectiveness
+  - sincerity
+  - nature of deception
+  - time interval of debriefing
+  - suspicions
+]
+
+.pull-right[
+![embarrassed](https://media.giphy.com/media/14aUO0Mf7dWDXW/giphy.gif)
+]
+
+---
+
+# Debriefing
+
+- Some studies, like **randomized controlled trials** or **RCTs** are experiments where there is a control group and an intervention group chosen at random and put in random groups
+  - drug trials
+  - deception is provided at the beginning of the study when the control group is a placebo group
+
+- **Placebo** is an ineffective substitute to whatever is being manipulated
+  - sugar pills
+
+---
+
+# Is Your Study Confidential or Anonymous?
+
+- **Confidentiality** is when participants' information/data is kept secret and private during a research study
+  - participant information could be searched and found
+
+- **Anonymity** is the practice of ensuring participants' information/data is not directly related to the participant
+  - don't have any identifying information about participants
+  
+- Are SONA experiments anonymous?
+
+---
+
+# Confidentiality
+
+- to keep data confidential, no names or other identification appears on any data records
+  - compensation means that researchers would have a separate list of those (surveys --> 2nd survey to sign up information)
+
+- Coding systems
+  - hand-written surveys would have a number that would be linked to the consent form with the same number
+  
+---
+
+# Institutional Review Board (IRB)
+
+- **Common rule** is based on the Belmont Report principles and provides common set of federal regulations to protect participants
+
+- **IRB** is a committee composed of scientists and non-scientists to determine whether your study is acceptable based on common rule
+  - minimization of risks to participants
+  - reasonable risk in relation to benefits
+  - equitable selection
+  - informed consent
+  - Documentation of informed consent
+  - Data monitoring
+  - Privacy and confidentiality
+  
+- IRB approval is needed for studies including participants
+  - some studies can be exempt --> using public, secondary, or anonymous data
+
+---
+
+# Ethical Issues & Scientific Integrity
+
+- research reporting
+  - don't fabricate your research findings
+  - if finding significant errors in published data, take steps to correct errors
+
+- plagiarism
+  - don't present others' work as your own
+  - make sure to cite/reference others or even yourself
+
+---
+
+# Fraud in Science
+
+- errors in research happen
+  - make sure to correct and reach out to the appropriate organization (journal publishers)
+
+- **fraud** is when a researcher purposely falsify or misinterpret data
+  - happens all the time
+  - not always on a large scale
+  - visuals often lie
+  
+- R1 or research institutions often push faculty to "publish or perish"
+  - write papers or you're fired
+
+---
+
+# Safeguards against Fraud
+
+- **replication** repetition of a research study using the same basic procedures used in the original study
+  - duplicating the same findings = good
+  - finding differing results = bad
+  
+- **peer review** is the process of other researchers blindly review another researcher's work
+  - don't get paid
+  - 2 reviewers that either accept, accept with revisions, reject and resubmit, or reject, also desk reject
+  - newer, sharing the original data for others to follow your steps and find the same findings...in theory
+
+- **plagiarism** is the unethical representation of someone's work as your own
+  - faculty stealing from grad students
+  - results in situations where students retaliate
+
+---
+
+# Ethics are not always easy
+
+- Your treatment is working compared to control group, do you continue your study?
+
+- Asking about religion from individuals that have left or have been ostracized from their religious groups
+
+- Asking about childhood trauma in adults?

@@ -1,0 +1,205 @@
+---
+title: "Study Guide - Exam 1"
+author: "JP"
+date: '2022-02-23'
+output:
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+methods of acquiring knowledge
+
+  - premise statements
+  
+  - arguments
+  
+scientific method
+
+inductive reasoning
+
+research questions
+
+hypotheses
+
+variables
+
+deductive reasoning
+
+replication
+
+know what science is
+
+peuedoscience
+
+research process
+
+quantitative and qualitative research
+
+IV and DV
+
+operational definitions
+
+participants
+
+research designs
+
+steps of research
+
+identifying topic areas
+
+basic and applied research
+
+efficacy and effectiveness
+
+theories and frameworks
+
+primary and secondary sources
+
+purpose of literature review
+
+subject words
+
+online databases
+
+abstracts
+
+tips of finding research
+
+hypothesis formation
+
+null hypothesis
+
+theories
+
+constructs
+
+operational definitions
+
+validity and reliability
+
+  - types of both
+  
+types of relationships
+
+scales of measurement
+
+treatment of differing scales
+
+measurement modalities
+
+sensitivity in measurement
+
+range effect
+
+artifacts
+
+experimenter bias
+
+demand characteristics
+
+reactivity
+
+different participant roles
+
+research ethics
+
+nuremberg code
+
+national research act
+
+belmont report
+
+  - principles
+  
+APA guidelines and ethics codes
+
+informed consent and consent forms
+
+decpetion
+
+confederates
+
+debriefing
+
+placebo
+
+RCTs
+
+confidential and anonymous studies
+
+IRB
+
+fraud and safeguards of fraud
+
+experimental resaerch strategy
+
+components of experiments
+
+extraneous variables
+
+third variables and confounding variables
+
+directionality
+
+randomization
+
+random process
+
+random assignment
+
+internal and external validity
+
+control methods in experiments
+
+manipulation checks
+
+no treatment control conditions
+
+placebo control conditions
+
+simulations
+
+types of realism
+
+field studies
+
+evidence based programs
+
+steps from basic research to implemented in the real world
+
+between-subjects design
+
+pros and cons of between-subjects designs
+
+individual differences
+
+equivalent groups
+
+restricted random assignment
+
+matching
+
+range of variability
+
+variance
+
+variance within groups
+
+attrition
+
+threats to internal validity
+
+communication between groups
+
+diffusion
+
+compensatory equalization
+
+compensatory rivalry
+
+resentful demoralization
+
+analyses

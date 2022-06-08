@@ -1,0 +1,303 @@
+---
+title: "Between-subjects Designs"
+subtitle: "PSY 4433"
+author: "Jonathan A. Pedroza, PhD"
+institute: "Cal Poly Pomona"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(xaringanthemer)
+style_duo(primary_color = '#56B4E9', secondary_color = 'black')
+```
+
+# Between-subjects Design
+
+- **Between-subjects** designs are when you obtain scores from different groups of participants
+  - control and (multiple) treatment groups
+  - only receive one condition (either treatment or control/placebo)
+  
+- **Between-subjects experimental designs** are when the researcher manipulates an independent variable
+
+---
+
+# Independent Scores
+
+- each individual has their own score
+  - each condition/group should have roughly the same amount of participants
+  - different participants in each condition
+
+- How many participants do you have in each condition if you have 80 total participants?
+
+- For certain variables (demographics), you'll have single scores for each participant
+  - construct measures will have several questions about the construct, which will need to be created into composite scores
+
+---
+
+# Advantages of Between-subjects Designs
+
+- biggest pro is that each individual provides their own scores
+
+- only measuring participants once
+  - because of this, often called **independent-measures experimental designs**
+  
+- other factors that could influence **within-subjects designs** are
+  - practice effect
+  - fatigue/boredom
+  - contrast effects (order of treatments can dictate the manipulation)
+  
+- robust because it can be used in several different scenarios
+
+---
+
+# Disadvantages of Between-subjects Designs
+
+- you need more participants for these designs
+
+- if conducting a power analysis, you may be under-powered to conduct your experiment
+  - need approximately 20 participants per variable in your analyses
+  
+- not useful for special populations
+  - Ex: wanting participants that are left-handed as your sample
+
+- What other populations may be difficult to collect enough data from for each group?
+  - Think about the participants you are interested for your project?
+  - Do you have any inclusion/exclusion criteria
+  
+- issues with individual differences in conditions
+
+---
+
+# Individual Differences
+
+- **individual differences** are the differences between participants
+  - not a concern until differences are found between groups
+
+- individual differences can become a confounding variable
+  - educational content (phone app, brochure) --> eating habits
+  - if one group is significantly different in your outcome (eating healthier) than the other group, great!
+  
+--
+  - cultural components, higher proportion vegetarian, age and technology
+  
+1. groups can be different
+
+2. individual differences within groups can have more variability
+
+- Participants can read questions differently
+  - Ex: Do you eat healthy?
+
+---
+
+# Confounding Variables from Individual Differences
+
+- Want to make sure your groups are as even as possible
+  - age, sex, etc.
+  
+- confounding can occur from
+  - individual differences
+  - environmental variables
+    
+    + when the environment changes (rooms, temperature, lighting, distractions, etc.)
+
+---
+
+# Equivalent Groups
+
+- you'll want your groups to be as equivalent as possible
+  - in both sample size and in other extraneous variables
+
+- Groups should be
+  - created equally (obtaining participants)
+  - treated equally (except for treatment, everything should be equal)
+  - composed of equivalent individuals (participants in each condition should be similar)
+
+---
+
+# Limiting Confounding Variables by Individual Differences
+
+- Random assignment
+  - any random way to assign participants to one group/condition
+  - must be equal chance of being control or treatment
+  
+- minimizes chance of individual differences
+
+- **restricted random assignment** is when the assignment process is limited to ensure that groups are equal size
+  - should get equal groups that due to randomization, are equal in other individual characteristics
+
+---
+
+# Matching Groups
+
+- there may be times when some variables can influence participants' scores
+
+- **matching**, or the process of assigning participants to groups based on a confounding variable, so that the final groups are balanced and equivalent
+  - used when believed a variable could throw off the true difference between groups
+
+- Ex: worried that age could be a factor when separated into groups, you can make sure that participants are matched in both groups by age
+  - Think about your own project and something that could influence your groups
+    
+    + you may need to match based on a variable
+
+---
+
+# Restricting Range of Variability
+
+- incorporating some type of inclusion/exclusion criteria to hold a potential confounding variable constant
+  - we talked about constant in regard to design (environment), now we can think about other variables
+
+- Ex: only want to see the relationship between IV and DV in Psychology only students (maybe Statistics test)
+
+- you can also think about restricting the variation/variability around a variable of interest
+  - maybe I only want to see those that have never taken statistics or those that took it a year or greater ago
+
+---
+
+# Recommendations
+
+- random assignment will handle most issues
+
+- read past literature to know if a similar study had some issues
+  - descriptive statistics of the groups
+  - Means, standard deviations, range, etc.
+  
+- maybe age is a potential confounding variable that was seen in a past study, therefore, you should maybe only use a certain age group (restricting range) or match groups based on age
+
+---
+
+# Individual Differences & Variability
+
+- **variance** or variability is the statistical value for the average distance of values around the mean
+  - low variance = scores roughly around the mean
+  - high variance = scores separated all over the place
+  
+- Group 1: M = 24, SD = 30
+- Group 2: M = 24, SD = 1.5
+
+- variance within groups is the amount of variability that is from individiual differences
+  - group 1 shows that while the average age of the group is 24, there is a lot of variability around that age
+
+---
+
+# Differences Between Treatments & Variance Within Treatments
+
+- for your study, you want to find differences between treatments
+  - some proof that your treatment is better *or worse* than the control group
+
+- **variance within groups** or **variance within treatments** is not desirable
+  - 
+  - means that individuals in those groups are not similar to one another
+  - don't want them exactly the same but similar enough
+
+---
+
+# Minimizing Within Treatment variance
+
+- standardize procedures and treatment settings
+  - scripts
+  - groups are treated equally
+  - reflect on experiment procedures
+
+- limit individual differences
+
+- random assignment and matching
+  - useful, although not perfect, theoretically groups could still be different
+
+- sample size
+  - larger samples reduce high variance
+  - not the most useful technique for reducing variation in groups
+
+- useful to have preliminary tests/results
+
+---
+
+# Threats to Internal Validity
+
+- internal validity is essentially how your experiment controls for everything and is only looking at a true cause and effect relationship
+
+- two threats
+  - confounding to individual differences between groups
+  - confounding from environmental variables
+
+---
+
+# Differential Attrition
+
+- **attrition** is when participants withdraw from the study before its completed
+  - if consistent between groups, then you are still okay
+  
+- **differntial attrition** is when attrition levels differ from your conditions/groups
+  - direct threat to internal validity
+  
+- one time point will not result in high attrition
+  - mainly an issue for pre-post designs, longitudinal designs, or interventions
+  
+- attrition can be handled with statistically but that is not perfect
+
+---
+
+# Attrition
+
+- if you have a study that is multiple time points, you
+  - may have participants that are motivated to continue
+  - have those that want to get the benefits of an intervention
+  - lose participants that are no longer interested
+  
+- this separates your groups and you no longer know whether your intervention is the cause to whatever outcome you are studying
+
+- What can you do to get people from leaving too early?
+
+--
+
+  - send out reminders for study (phone calls, emails, social media)
+  - SOME will state that you remind them they don't get compensation (may organize your compensation to get a bonus for staying)
+
+---
+
+# Communication Between Groups
+
+.pull-left[
+![matty shhh](https://media.giphy.com/media/3oKIP7vCPcUz3RNMgU/giphy.gif)
+]
+
+.pull-right[
+- Don't let your participants talk to one another!
+
+- When debriefing, inform them not to talk to other participants until the end of the experiment's duration (End of spring semester)
+]
+
+---
+
+# Communication Between Groups
+
+- **diffusion** refers to the spread of a experimental treatment to the control group
+  - reduces the potential effect on the outcome
+
+- **compensatory equalization** is when participants in the control hear about the benefits from the treatment group and they want the same treatment
+  - this alone can be the end of your experiment
+  - if treatment is something interesting, participants may want the interesting treatment rather than doing nothing
+  - double-blind experiments stop this because no one knows what participants are receiving
+  
+---
+
+# Communication Between Groups
+
+- groups can also change behavior when learning of another 
+  - groups may state responses more aligned with other groups because the other group is getting special treatment
+    
+    + **compensatory rivalry**
+    
+- groups may also just stop caring about the study when they learn others get special treatment
+  - **resentful demoralization**
+  

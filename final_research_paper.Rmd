@@ -156,56 +156,85 @@ a {
 }
 ```
 
-# Rubric
+# Notes
 
-- Approximately 30 pages long
-- 
+- There are no page limits
+- The paper **needs** to be in APA style  
+  - 7th edition
+- title should be 12 words or less
+- all sections will be graded based on the inclusion of the respective information
+  - Introduction: appropriate literature, accurate purposes/hypotheses
+  - Method: recruitment, design, measures, analyses
+  - Results: sample description, preliminary results (optional), results, exploratory results
+  - Discussion: reiteration of hypotheses, interpretation of findings, limitations, strengths
 
 ## Total Points (100 points)
 
 ### Abstract (10 points)
 
 - 250 words only
+- does not need to be organized
+
+- 10 point breakdown
+  - 1 point for introducing problem
+  - 1 point for purpose statement(s)/hypotheses
+  - 2 points for including descriptive statistics of sample
+  - 2 points for design
+  - 1 point for major result finding with statistics
+  - 2 points for discussion point(s)
+  - 1 point for implications
 
 ### Introduction & Literature Review (25 points)
 
-- Introduction should be on the purpose of the study
-  - also have information on what your study is contributing to the field
 
-- Literature Review is on existing literature on the topic to show you know what you're talking about
-  - this should include all relationships that you are looking at
-  - also includes the purpose of control variables
+- initial problem
+
+- relationship between $IV_1$ and DV
+
+- relationship between $IV_2$ and DV
+  - if available, look at $IV_2$ as a potential moderator/interaction variable
   
-- research questions/hypotheses
+- talk about how your study includes the theory/framework you looked up
+
+- if including control variables, talk about the variables you are including
+
+- gaps in the literature
+
+- aims/purposes
 
 ### Method (15 points)
 
 - Participants
-  - tell me about the your sample
   - how did you recruit?
+  - what demographic information did you gather from participants?
+  - was there any inclusion/exclusion criteria?
 
 - Measures
-  - what measures did you use
+  - what measures did you use?
   - did you create a survey/questionnaire?
 
 - Procedure & Design
-  - paint me a picture of your design
+  - give me a description of your design?
 
 - Data Analysis Plan
-  - very similar to IRB protocol
+  - this is provided to you, use it as a template
 
 ### Results (15 points)
 
+- tell me about your sample
+
 - preliminary results
-  - descriptive statistics
-  - analyses to help answer your research questions/hypotheses
-  
+  - any additional analyses you conducted
+
 - main analyses
-  - what was in your IRB proposal
+  - the model run for your hypotheses
 
 - exploratory analyses
   - anything else that you may be interested in answering
   - may be something that you originally didn't think of
+
+- need to have at least 1 figure
+  - interaction plot
 
 ### Discussion & Implications (25 points)
 
@@ -215,19 +244,7 @@ a {
   - connect it with past literature
 
 - what do your findings mean past your study?
-  - what does this do for practitioners/researchers/plicy makers
+  - what does this do for practitioners/researchers/policy makers
 
-### Figures & Tables ( points)
+### Formatting , Grammar, & References (10 points)
 
-- need to have at least 1 figure and 1 table
-
-### Formatting & References ( points)
-
-- APA formatting (7th edition) for:
-  - abstract formatting
-  - headings and subheadings
-  - citations
-  - references
-  - tables & figures
-  - title page
-  - header for each page and page number
